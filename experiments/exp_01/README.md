@@ -11,7 +11,7 @@ This directory is the permanent research record. Live agent work happens outside
 The prior pilot run and accidental operator-audit artifacts were archived at:
 
 ```text
-/Users/adithyasrinivasan/Projects/creativity-docs/_archive/formal_ed_fire_reset_20260513_162156
+/Users/adithyasrinivasan/Projects/creativity-docs/_archive/2026-05-13_162156__ed_fire_exp01_formal_prompt_reset_snapshot
 ```
 
 ## Formal Status
