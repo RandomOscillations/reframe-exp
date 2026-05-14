@@ -1,0 +1,33 @@
+{
+  "candidate_id": "C6c_pann_suppress_pow4",
+  "variant": "pann_suppress",
+  "mechanism": "pann_suppress_ablation",
+  "score_proxy": {
+    "bias": 0.7106861368846886,
+    "rmse": 0.379742680492277,
+    "seasonal": 0.8508775169241494,
+    "spatial": 0.750109857065156,
+    "overall": 0.630307501457206
+  },
+  "fire_max_rate": 5.0,
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "humid_floor": 0.057628321303627716,
+    "humid_half": 1916.3419172731085,
+    "humid_pow": 4.0
+  },
+  "ablation_updates": {
+    "humid_pow": 4.0
+  }
+}

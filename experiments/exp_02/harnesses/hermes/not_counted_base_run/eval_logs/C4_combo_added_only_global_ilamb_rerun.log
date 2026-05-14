@@ -1,0 +1,31 @@
+Running ilamb-run:
+  config:     /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/burntArea_official.cfg
+  model_root: /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/MODELS
+  build_dir:  /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/output_modelC
+
+
+Searching for model results in /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/MODELS
+
+                                  ED-ModelC-final
+
+Parsing config file /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/burntArea_official.cfg...
+
+                              BurnedArea/GFED4.1S[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+                              BurnedArea/GFED4.1S ED-ModelC-final      [92mCompleted[0m  0:00:09
+
+Finishing post-processing which requires collectives...
+
+                              BurnedArea/GFED4.1S ED-ModelC-final      [92mCompleted[0m  0:00:02
+
+Completed in  0:00:12
+
+
+Overall Score for ED-ModelC-final:
+  Bias Score                     0.7284
+  RMSE Score                     0.5063
+  Seasonal Cycle Score           0.8526
+  Spatial Distribution Score     0.7671
+  Overall Score                  0.6722

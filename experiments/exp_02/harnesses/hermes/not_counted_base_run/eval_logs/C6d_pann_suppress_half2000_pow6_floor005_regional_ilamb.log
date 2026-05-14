@@ -1,0 +1,44 @@
+Running official regional ILAMB:
+  config:     /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/burntArea_official.cfg
+  model_root: /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/MODELS
+  model:      ED-ModelC-final
+  regions:    global bona tena ceam nhsa shsa euro mide nhaf shaf boas ceas seas eqas aust
+  build_dir:  /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/output_regions_official
+
+
+Searching for model results in /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/MODELS
+
+                                  ED-ModelC-final
+
+Parsing config file /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/burntArea_official.cfg...
+
+                              BurnedArea/GFED4.1S[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+                              BurnedArea/GFED4.1S ED-ModelC-final      [92mCompleted[0m  0:00:12
+
+Finishing post-processing which requires collectives...
+
+                              BurnedArea/GFED4.1S ED-ModelC-final      [92mCompleted[0m  0:00:21
+
+Completed in  0:00:36
+
+
+Regional score summary:
+Region  Overall Score  Bias Score  RMSE Score  Seasonal Cycle Score  Spatial Distribution Score  Period Mean (original grids)
+global       0.672686    0.731669    0.507202              0.845976                    0.771383                      0.561429
+  bona       0.789891    0.884036    0.742583              0.925121                    0.655129                      0.043832
+  tena       0.384468    0.439695    0.309698              0.698467                    0.164782                      0.369286
+  ceam       0.391356    0.328312    0.326072              0.849571                    0.126752                      0.697460
+  nhsa       0.611703    0.527620    0.507316              0.914331                    0.601931                      0.575737
+  shsa       0.524780    0.510445    0.447761              0.821897                    0.396036                      0.798604
+  euro       0.362059    0.395136    0.263154              0.808139                    0.080711                      0.287261
+  mide       0.382903    0.436866    0.310231              0.765840                    0.091345                      0.341232
+  nhaf       0.646614    0.769050    0.479065              0.901029                    0.604863                      1.372540
+  shaf       0.645814    0.756978    0.501324              0.902393                    0.567051                      1.396910
+  boas       0.728755    0.840773    0.619224              0.796639                    0.767913                      0.073136
+  ceas       0.670749    0.783717    0.560474              0.722149                    0.726929                      0.257649
+  seas       0.502390    0.535731    0.391163              0.826212                    0.367681                      0.922559
+  eqas       0.575724    0.616591    0.563068              0.849820                    0.286072                      0.156537
+  aust       0.669304    0.745094    0.651932              0.579524                    0.718040                      0.506419

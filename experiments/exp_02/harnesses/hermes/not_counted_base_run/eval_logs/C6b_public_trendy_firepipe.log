@@ -1,0 +1,94 @@
+Running public TRENDY/firepipe benchmark:
+  benchmark:  /Users/adithyasrinivasan/Projects/creativity-docs/trendy-v14-fire-benchmark-source
+  model:      ED-ModelC-formal-candidate
+  source:     /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base/ilamb/MODELS/ED-ModelC-final/burntArea.nc
+  copied to:  /Users/adithyasrinivasan/Projects/creativity-docs/trendy-v14-fire-benchmark-source/ilamb/MODELS/ED-ModelC-formal-candidate/burntArea.nc
+  build_dir:  /Users/adithyasrinivasan/Projects/creativity-docs/trendy-v14-fire-benchmark-source/ilamb/output_with_ED-ModelC-formal-candidate
+
+
+Searching for model results in ilamb/MODELS
+
+                                          CLASSIC
+                                        CLM-FATES
+                                           CLM6.0
+                       ED-ModelC-baseline-current
+                  ED-ModelC-curing-lag-v1-current
+               ED-ModelC-dryseason-wet-v1-current
+                       ED-ModelC-formal-candidate
+                    ED-ModelC-lag-fuel-v1-current
+                     ED-ModelC-opt-wet-v1-current
+                             ED-ModelC-pass2-P2F3
+    ED-ModelC-precip-conc-wet-curing-lag-v1-current
+             ED-ModelC-precip-conc-wet-v1-current
+                                             EDv3
+                                              ELM
+                                        ELM-FATES
+                                           JSBACH
+                                         JULES-ES
+                                        LPJ-EOSIM
+                                        LPJ-GUESS
+                                            LPJmL
+                                         VISIT-UT
+
+Parsing config file ilamb/burntArea.cfg...
+
+                              BurnedArea/GFED4.1S[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+                              BurnedArea/GFED4.1S ED-ModelC-pass2-P2F3 [92mCompleted[0m  0:00:08
+                              BurnedArea/GFED4.1S JSBACH               [91mIndexError[0m
+
+Finishing post-processing which requires collectives...
+
+                              BurnedArea/GFED4.1S CLASSIC              [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S CLM-FATES            [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S CLM6.0               [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-baseline-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-curing-lag-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-dryseason-wet-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-formal-candidate [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-lag-fuel-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-opt-wet-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-pass2-P2F3 [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-precip-conc-wet-curing-lag-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ED-ModelC-precip-conc-wet-v1-current [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S EDv3                 [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ELM                  [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S ELM-FATES            [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S JSBACH               [92mCompleted[0m  0:00:01
+                              BurnedArea/GFED4.1S JULES-ES             [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S LPJ-EOSIM            [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S LPJ-GUESS            [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S LPJmL                [92mCompleted[0m  0:00:02
+                              BurnedArea/GFED4.1S VISIT-UT             [92mCompleted[0m  0:00:02
+/Users/adithyasrinivasan/Projects/creativity-docs/trendy-v14-fire-benchmark-source/.venv/lib/python3.12/site-packages/ILAMB/Confrontation.py:863: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  fig.savefig(os.path.join(self.output_path, "legend_temporal_variance.png"))
+
+Errors occurred in the run, please consult /Users/adithyasrinivasan/Projects/creativity-docs/trendy-v14-fire-benchmark-source/ilamb/output_with_ED-ModelC-formal-candidate/ILAMB03.log for more detailed information
+
+Completed in  0:00:44
+
+
+Public benchmark score summary:
+                                          Model  Overall Score  Bias Score  RMSE Score  Seasonal Cycle Score  Spatial Distribution Score  Period Mean (original grids)
+                           ED-ModelC-pass2-P2F3       0.676846    0.738666    0.512972              0.848079                    0.771540                      0.466368
+                     ED-ModelC-formal-candidate       0.676313    0.738225    0.511898              0.844302                    0.775242                      0.484218
+ED-ModelC-precip-conc-wet-curing-lag-v1-current       0.672433    0.731335    0.507024              0.847636                    0.769145                      0.558436
+           ED-ModelC-precip-conc-wet-v1-current       0.672227    0.731487    0.507071              0.845979                    0.769529                      0.554164
+             ED-ModelC-dryseason-wet-v1-current       0.671985    0.731037    0.506947              0.846199                    0.768796                      0.564224
+                ED-ModelC-curing-lag-v1-current       0.671767    0.727997    0.505755              0.848710                    0.770616                      0.614471
+                  ED-ModelC-lag-fuel-v1-current       0.671600    0.728075    0.505767              0.848154                    0.770237                      0.622335
+                   ED-ModelC-opt-wet-v1-current       0.671436    0.730475    0.506667              0.845975                    0.767397                      0.567266
+                     ED-ModelC-baseline-current       0.671274    0.728089    0.505759              0.845690                    0.771075                      0.611164
+                                        CLASSIC       0.666048    0.738463    0.506512              0.782179                    0.796576                      0.355219
+                                         CLM6.0       0.660644    0.758765    0.473987              0.758324                    0.838156                      0.383281
+                                      CLM-FATES       0.656831    0.725026    0.525205              0.801922                    0.706800                      0.318921
+                                      ELM-FATES       0.656788    0.724021    0.511529              0.860476                    0.676384                      0.629683
+                                       JULES-ES       0.590519    0.709288    0.506212              0.784159                    0.446723                      0.178786
+                                            ELM       0.556381    0.687174    0.491961              0.777720                    0.333089                      0.135698
+                                       VISIT-UT       0.554455    0.636497    0.487699              0.694766                    0.465613                      0.425638
+                                          LPJmL       0.548547    0.693387    0.489300              0.458751                    0.611996                      0.283702
+                                      LPJ-GUESS       0.479233    0.670836    0.488993              0.459076                    0.288271                      0.189507
+                                           EDv3       0.477410    0.680670    0.488924              0.438590                    0.289944                      0.106925
+                                      LPJ-EOSIM       0.463542    0.653564    0.488996              0.459075                    0.227081                      0.110799
