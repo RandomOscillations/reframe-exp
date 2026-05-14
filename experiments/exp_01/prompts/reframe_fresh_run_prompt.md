@@ -3,41 +3,17 @@
 Paste this into Hermes from the fresh reframe workspace.
 
 ```text
-Read AGENTS.md, program.md, WORKSPACE_MANIFEST.md, and BASELINE_REPRO.md before doing anything else.
+Read AGENTS.md, program.md, WORKSPACE_MANIFEST.md, and BASELINE_REPRO.md before doing anything else. Do not stop until final_report.md is written.
 
-Before proceeding, read the necessary files and reiterate your understanding along with any questions you have.
+Start from original Model (C). Your job is to push the model-improvement process to a defensible stopping point. The current model performs well (offline) and ranks #1 on the benchmark. However, there are caveats and improvements which can be made. The scientific goal is not merely to increase one scalar metric. The goal is to find whether a unified, mechanistic, interpretable burned-area functional form can improve global fit and regional fire behavior under the fixed input contract.
 
-Do not stop until final_report.md is written.
+You are free to alter the functional form along with the hyperparams (by using optuna by using 500-2000 trials at most). Once you believe there is meaningful change, you MUST run the official global and regional ILAMB and use all aspects of the scores to make your judgement.
 
-Start from original Model C. Your job is to push the model-improvement process to a defensible stopping point.
+You are welcome to view this from an angle of different fire types: such as cropland, forest fire, etc. or different region types or any other angle/hybrid you may deem worthy. But you must have one global formula, ie. you may not have seperate sub-region level formulas with some black box type routing mechanism for instance. Inferring region level physics/fire type level physics from cell level data and encoding them all in some global functional form which "acts differently" per "type" is fair game.
 
-The current model performs well offline and ranks strongly on the benchmark. However, there are caveats and improvements that may be possible. The scientific goal is not merely to increase one scalar metric. The goal is to find whether a unified, mechanistic, interpretable burned-area functional form can improve global fit and regional fire behavior under the fixed input contract.
+Draw parallels and look at other fields for inspiration. Explore the structure of the problem and solution and see where you can draw inspiration to find the best match. An example of this would be, to solve the neonatal handover problem for newborns, doctors drew inspiration from F1 pit crews and how that analogy can transfer to the ER. The F1 pitstop is highly efficient as the pit crew had 7 seconds to refuel and change the tyres. The surgeons translated it to the ER to specify where everyone should be positioned and how to operate, bringing down errors and the duration of handover. Both problems share the same structure of team organization and efficiency. Zoom out and look for such parallels structurally for this specific problem scenario. You need to do this at each sub-level of whatever hypothesis/approach you are taking.
 
-You are free to alter the functional form and hyperparameters. Use Optuna where appropriate, with substantial searches of 500-2000 trials at most when the direction is promising and runtime allows. Once you believe there is meaningful change, you must run official global ILAMB and official regional ILAMB, and use all aspects of the scores to make your judgment.
-
-The final model must be one global, interpretable formula. It may include smooth ceilings, floors, saturations, humps, thresholds, piecewise functions, interactions, or gates if every term has a physical explanation and uses only allowed inputs.
-
-The optimization goal is not just global Overall. Improve global Overall while preserving or improving regional Overall spread and regional physical realism. Do not accept a candidate that improves global Overall by damaging important weak regions.
-
-Make sure to perform ablations to prune complexity where necessary. Make sure to log what you try. Do not stop because a candidate improves global Overall. Keep a best-so-far model and continue until further constrained model exploration is exhausted.
-
-This is intended to be a serious multi-hour run. Unless blocked, continue working through multiple substantial mechanism families before finalizing. Do not compress the run into a short first-improvement pass.
-
-Structural reframing intervention:
-
-At every major loop, and again inside important subproblems, deliberately zoom out and look for structurally similar problems in other fields. Do not look for surface similarity. Look for shared structure: the same kind of bottleneck, constraint, regime change, coordination problem, threshold, flow, feedback, failure mode, or allocation problem.
-
-Use these cross-domain parallels as inspiration for new mechanistic hypotheses, representations, diagnostics, or ablations. Translate any useful analogy back into the ED fire problem as a concrete, testable, unified-form model change using only the allowed inputs.
-
-Example of the kind of structural transfer to consider: neonatal handover in hospitals was improved by studying Formula 1 pit crews. The domains are different, but both problems share a structure of time-critical coordination, role assignment, and error reduction under pressure. The useful transfer was not "cars are like babies"; it was the deeper organizational structure: where people stand, who does what, and how handoff steps are sequenced.
-
-Apply this style of reasoning to the fire-model problem. For each hypothesis or sub-hypothesis, ask:
-- What is the underlying structure of this failure?
-- Where else does that structure appear?
-- What variables, constraints, or mechanisms become visible through that parallel?
-- Can the insight become an interpretable global formula, diagnostic, ablation, or search space under the allowed input contract?
-
-Do not force analogies. If a parallel does not yield a concrete testable mechanism, log it briefly and move on. The analogy is useful only if it improves the scientific search, not as prose decoration.
+Make sure to perform ablations to properly prune complexity where necessary. Make sure to log what you try out. Do not stop because a candidate improves global Overall. Keep a best-so-far model and continue until further constrained model exploration is exhausted.
 
 A candidate is not acceptable unless it has:
 - official global ILAMB,
@@ -52,9 +28,7 @@ Do not use:
 - latitude/longitude hacks,
 - per-cell lookup tables,
 - named-region routing,
-- per-region formulas,
-- arbitrary residual correction coefficients,
-- score-only hyperparameter fitting without a physical mechanism.
+- arbitrary residual correction coefficients.
 
 Maintain these logs throughout:
 - research_log.md
@@ -63,7 +37,9 @@ Maintain these logs throughout:
 - regional_analysis.md
 - constraint_checks.md
 
-When you believe all possible directions/angles are exhausted, write final_report.md. Include the set of best models you found: global best, regional best, balanced best, and final accepted model if these differ. Include related rankings, mechanisms tried, Optuna/search trial counts, ablations, reasoning behind choosing or rejecting models, where the model still fails, and why remaining failures appear unresolved under the current constraints.
+When you believe all possible directions/angles are exhausted note down the set of best models you get: this could be global, regional, both, etc along with related rankings + mechanisms tried + your reasoning behind choosing them, where it is failing and why the remaining failures appear unresolved under the current constraints.
 
 Do not stop until final_report.md is written.
+
+Before proceeding, read necessary files, and reiterate your understanding along with any questions you may have.
 ```
