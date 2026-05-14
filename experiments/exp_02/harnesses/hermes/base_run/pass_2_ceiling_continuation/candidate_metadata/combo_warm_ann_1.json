@@ -1,0 +1,36 @@
+{
+  "family": "warm_gated_wet_temp + annual_wet_suppression",
+  "name": "combo_warm_ann_1",
+  "search": "combined grid to keep warm-gate weak-region gains and ann-wet EQAS/SEAS gains while preserving BONA/BOAS",
+  "tuple": [
+    20,
+    5,
+    0.25,
+    5,
+    0.1,
+    1600,
+    3
+  ],
+  "fast_score": {
+    "bias": 0.7128405559193965,
+    "rmse": 0.3829552459624159,
+    "seas": 0.8497803996752623,
+    "spatial": 0.7493459799408426,
+    "overall": 0.6317863305632883
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula, T/P-derived smooth gates only"
+}

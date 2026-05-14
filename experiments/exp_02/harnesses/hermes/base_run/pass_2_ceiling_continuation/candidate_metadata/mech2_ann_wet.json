@@ -1,0 +1,35 @@
+{
+  "family": "ann_wet",
+  "name": "mech2_ann_wet",
+  "search": "continued distinct mechanism grid after BONA/BOAS wet-temp failure",
+  "tuple": [
+    0.6305024969608465,
+    "ann_wet",
+    1.8,
+    3000,
+    3.0
+  ],
+  "fast_score": {
+    "bias": 0.7105136451422308,
+    "rmse": 0.37967841025540205,
+    "seas": 0.8509704030368518,
+    "spatial": 0.7516604679329619,
+    "overall": 0.6305024969608465
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "extra": "multiplicative global modifier derived from allowed P/T fields",
+  "constraint_note": "one global formula; no region/lat/cell routing"
+}

@@ -1,0 +1,158 @@
+[setup] load drivers/GFED
+trials 600 runtime_min 1.6033211509386698
+{
+  "family": "wet_canopy_plus_two_threshold_arid_fuel_continuity",
+  "name": "p2f3_seed_current",
+  "search": "seeded from continued hypothesis, emitted for official evaluation",
+  "fast_score": {
+    "bias": 0.7177919595258778,
+    "rmse": 0.3821021507405345,
+    "seas": 0.8533568668403302,
+    "spatial": 0.764364600008788,
+    "overall": 0.6362516145636571
+  },
+  "params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "base_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula using P_ann and Dbar-derived deficit ratio; no region/lat/cell routing"
+}
+{
+  "family": "wet_canopy_plus_two_threshold_arid_fuel_continuity",
+  "name": "p2f3_optuna600_current",
+  "search": "600-trial Optuna refinement in current workspace",
+  "fast_score": {
+    "bias": 0.7194802884941962,
+    "rmse": 0.3832197956717819,
+    "seas": 0.8543073525790806,
+    "spatial": 0.7609846996841453,
+    "overall": 0.6367820367658638
+  },
+  "params": {
+    "wet_amp": 0.9268889558993322,
+    "wet_k": 0.03214551450951638,
+    "wet_c": 1718.1082220494109,
+    "ratio_p0": 2.0355345537477203,
+    "arid_amp1": 0.300706633836421,
+    "arid_k1": 11.832052299725495,
+    "arid_c1": 0.7866368003934288,
+    "arid_amp2": 0.9336109694315612,
+    "arid_k2": 2.837044399829112,
+    "arid_c2": 5.827044443878375
+  },
+  "base_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula using P_ann and Dbar-derived deficit ratio; no region/lat/cell routing"
+}
+{
+  "family": "wet_canopy_plus_two_threshold_arid_fuel_continuity",
+  "name": "p2f3_ablate_no_low_current",
+  "search": "ablation: remove low/soft arid threshold",
+  "fast_score": {
+    "bias": 0.7172729357059431,
+    "rmse": 0.38148727736915344,
+    "seas": 0.8499727430180606,
+    "spatial": 0.7658006920215308,
+    "overall": 0.6355489768649641
+  },
+  "params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.0,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "base_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula using P_ann and Dbar-derived deficit ratio; no region/lat/cell routing"
+}
+{
+  "family": "wet_canopy_plus_two_threshold_arid_fuel_continuity",
+  "name": "p2f3_ablate_no_high_current",
+  "search": "ablation: remove high/desert arid threshold",
+  "fast_score": {
+    "bias": 0.7158616242638686,
+    "rmse": 0.381030805996231,
+    "seas": 0.8549808246571727,
+    "spatial": 0.7608518041789376,
+    "overall": 0.6349362482260515
+  },
+  "params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.0,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "base_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula using P_ann and Dbar-derived deficit ratio; no region/lat/cell routing"
+}

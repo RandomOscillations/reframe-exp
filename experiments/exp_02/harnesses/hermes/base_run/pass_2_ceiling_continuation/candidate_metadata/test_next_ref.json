@@ -1,0 +1,31 @@
+{
+  "family": "low_arid_warm_gate",
+  "name": "test_next_ref",
+  "search": "test",
+  "n_trials": 0,
+  "fast_score": {
+    "bias": 0.7204015741832495,
+    "rmse": 0.38236041783738817,
+    "seas": 0.8532749550914095,
+    "spatial": 0.764608451887071,
+    "overall": 0.6372345651699592
+  },
+  "params": {
+    "warm_k": 0.5,
+    "warm_c": 5,
+    "floor": 1.0
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

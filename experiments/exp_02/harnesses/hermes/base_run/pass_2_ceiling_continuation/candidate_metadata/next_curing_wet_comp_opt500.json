@@ -1,0 +1,38 @@
+{
+  "family": "curing_with_wet_comp",
+  "name": "next_curing_wet_comp_opt500",
+  "search": "500-trial Optuna curing phase with wet compensation continuation",
+  "n_trials": 500,
+  "fast_score": {
+    "bias": 0.725097572524536,
+    "rmse": 0.38580000070223913,
+    "seas": 0.8629169700403682,
+    "spatial": 0.7879240360601144,
+    "overall": 0.6454393587590055
+  },
+  "params": {
+    "drying_k": 0.1735538360934589,
+    "drying_c": 68.64017764099074,
+    "pconc_half": 0.20729095122097288,
+    "pconc_pow": 3.4650356988258544,
+    "temp_k": 0.25000418411542363,
+    "temp_c": 6.901977911071024,
+    "cure_amp": 1.441590733503803,
+    "wet_k": 1.0250609893183358,
+    "wet_c": 0.809452567254946,
+    "wet_amp": 0.66644849452502
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

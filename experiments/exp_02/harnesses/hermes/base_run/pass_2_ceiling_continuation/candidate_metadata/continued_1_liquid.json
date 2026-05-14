@@ -1,0 +1,39 @@
+{
+  "family": "liquid_wet_temp",
+  "name": "continued_1_liquid",
+  "search": "deterministic BONA/BOAS-preserving wet ignition grid",
+  "grid_tuple": [
+    0.6321876221485249,
+    "liquid",
+    10,
+    5,
+    0.3,
+    2
+  ],
+  "fast_score": {
+    "bias": 0.712435599923776,
+    "rmse": 0.38470257205723174,
+    "seas": 0.8490529121149171,
+    "spatial": 0.749796476814216,
+    "overall": 0.6321876221485249
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "wet_half": 10,
+    "wet_temp_shift": 5,
+    "liquid_k": 0.3,
+    "liquid_c": 2
+  },
+  "constraint_note": "one global formula; thermal/liquid gates from allowed T_air and P only; no region/lat/cell routing"
+}

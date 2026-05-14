@@ -1,0 +1,35 @@
+{
+  "family": "curing_phase",
+  "name": "next_curing_phase_scale_1p25",
+  "search": "deterministic curing-phase scale lambda=1.25 from official promising candidate",
+  "n_trials": 0,
+  "fast_score": {
+    "bias": 0.7204290062415876,
+    "rmse": 0.3836153392261212,
+    "seas": 0.8599436520177957,
+    "spatial": 0.7840626985763584,
+    "overall": 0.6420158402549285
+  },
+  "params": {
+    "drying_k": 0.16870209880980871,
+    "drying_c": 71.17350795277348,
+    "pconc_half": 0.20748504787360555,
+    "pconc_pow": 3.3506752838624436,
+    "temp_k": 0.9594474500094113,
+    "temp_c": 3.9835049607606248,
+    "cure_amp": 0.5649293922810381
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

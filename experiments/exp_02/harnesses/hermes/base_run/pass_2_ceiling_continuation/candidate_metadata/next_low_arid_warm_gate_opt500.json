@@ -1,0 +1,31 @@
+{
+  "family": "low_arid_warm_gate",
+  "name": "next_low_arid_warm_gate_opt500",
+  "search": "500-trial Optuna low arid warm gate continuation",
+  "n_trials": 500,
+  "fast_score": {
+    "bias": 0.7204015671625963,
+    "rmse": 0.3823603503486342,
+    "seas": 0.8532756831864687,
+    "spatial": 0.7646082625829002,
+    "overall": 0.6372346301319717
+  },
+  "params": {
+    "warm_k": 1.1477776330929874,
+    "warm_c": -4.795821630243357,
+    "floor": 0.98668758086511
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

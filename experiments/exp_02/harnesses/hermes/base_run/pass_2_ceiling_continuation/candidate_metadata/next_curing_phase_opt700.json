@@ -1,0 +1,35 @@
+{
+  "family": "curing_phase",
+  "name": "next_curing_phase_opt700",
+  "search": "700-trial Optuna from P2F3 failure-directed family",
+  "n_trials": 700,
+  "fast_score": {
+    "bias": 0.7209786067840306,
+    "rmse": 0.3837164774165594,
+    "seas": 0.8594152265748513,
+    "spatial": 0.7832394322029275,
+    "overall": 0.642007471196493
+  },
+  "params": {
+    "drying_k": 0.19736444679172624,
+    "drying_c": 74.4838808256049,
+    "pconc_half": 0.20949349155920055,
+    "pconc_pow": 2.7351785399489925,
+    "temp_k": 0.405561770991479,
+    "temp_c": 12.912192176616148,
+    "cure_amp": 0.43576565017821256
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

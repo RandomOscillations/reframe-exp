@@ -1,0 +1,34 @@
+{
+  "family": "low_amp_suppress",
+  "name": "mech2_low_amp_suppress",
+  "search": "continued distinct mechanism grid after BONA/BOAS wet-temp failure",
+  "tuple": [
+    0.6289803871477928,
+    "low_amp_suppress",
+    0.1,
+    5
+  ],
+  "fast_score": {
+    "bias": 0.7069428607703332,
+    "rmse": 0.378953021132152,
+    "seas": 0.8507378860900104,
+    "spatial": 0.7513526729917761,
+    "overall": 0.6289803871477928
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "extra": "multiplicative global modifier derived from allowed P/T fields",
+  "constraint_note": "one global formula; no region/lat/cell routing"
+}

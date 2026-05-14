@@ -1,0 +1,33 @@
+{
+  "family": "cold_continental_relax",
+  "name": "next_cold_continental_relax_opt700",
+  "search": "700-trial Optuna from P2F3 failure-directed family",
+  "n_trials": 700,
+  "fast_score": {
+    "bias": 0.7209780011842853,
+    "rmse": 0.3822709725366948,
+    "seas": 0.8530205363323771,
+    "spatial": 0.7645633219611961,
+    "overall": 0.6373469676225889
+  },
+  "params": {
+    "cold_k": 1.3451198755044285,
+    "cold_c": 8.614845537074741,
+    "amp_k": 1.593977379181,
+    "amp_c": 34.92561986758471,
+    "relax_amp": 0.5938122178048165
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}

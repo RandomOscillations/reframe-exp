@@ -1,0 +1,41 @@
+{
+  "family": "curing_phase_with_warm_gated_wet_comp",
+  "name": "next_curing_warmwet_opt700",
+  "search": "700-trial warm-gated wet-comp curing refinement",
+  "n_trials": 700,
+  "fast_score": {
+    "bias": 0.7257779705422591,
+    "rmse": 0.3861689822391051,
+    "seas": 0.8636917626596458,
+    "spatial": 0.7873910477640627,
+    "overall": 0.6458294526644061
+  },
+  "params": {
+    "drying_k": 0.151909755193002,
+    "drying_c": 71.10327035972242,
+    "pconc_half": 0.17733668059544083,
+    "pconc_pow": 3.6607083389419017,
+    "temp_k": 0.5483001798421393,
+    "temp_c": 6.554353498957058,
+    "cure_amp": 1.5049730144952744,
+    "wet_k": 1.9603357957179453,
+    "wet_c": 0.6295980601621034,
+    "wet_amp": 0.6870145681883499,
+    "warm_k": 0.3505191473516711,
+    "warm_c": 1.0746987182178573,
+    "warm_floor": 0.2567401996295871
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula: dbar tendency + precipitation concentration + T_air warm gate; no region/lat/cell routing"
+}

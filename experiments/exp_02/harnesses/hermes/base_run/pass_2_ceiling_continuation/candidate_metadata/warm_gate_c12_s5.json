@@ -1,0 +1,31 @@
+{
+  "family": "warm_gated_wet_temp",
+  "name": "warm_gate_c12_s5",
+  "search": "targeted warm-gate candidates to preserve BONA/BOAS after wet-temp failure",
+  "fast_score": {
+    "bias": 0.7099203635175627,
+    "rmse": 0.3816550500188288,
+    "seas": 0.849602243476788,
+    "spatial": 0.7487103697156282,
+    "overall": 0.6302439067108666
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "wet_half": 20.0,
+    "wet_temp_shift": 5.0,
+    "warm_k": 0.5,
+    "warm_c": 12.0
+  },
+  "constraint_note": "single global thermal gate from T_air; no region/lat routing"
+}
