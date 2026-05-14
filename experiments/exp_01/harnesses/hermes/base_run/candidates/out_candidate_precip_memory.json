@@ -1,0 +1,232 @@
+{
+  "hypothesis": "fuel moisture responds to recent precipitation memory",
+  "functional_form": "P_month_eff=(1-alpha)*P_month+alpha*mean(previous window months) in existing p_damp",
+  "scan_space": {
+    "precip_memory_window": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "precip_memory_alpha": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "base_proxy": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.3790544420749578,
+    "seas": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6727892141614265
+  },
+  "best_proxy": {
+    "bias": 0.7077351572770846,
+    "rmse": 0.37981763516545003,
+    "seas": 0.8518241565487183,
+    "spatial": 0.7469981412872828,
+    "overall": 0.6715937725696339
+  },
+  "best_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "precip_memory_window": 1,
+    "precip_memory_alpha": 0.25
+  },
+  "rows": [
+    {
+      "precip_memory_window": 1,
+      "precip_memory_alpha": 0.25,
+      "bias": 0.7077351572770846,
+      "rmse": 0.37981763516545003,
+      "seas": 0.8518241565487183,
+      "spatial": 0.7469981412872828,
+      "overall": 0.6715937725696339
+    },
+    {
+      "precip_memory_window": 1,
+      "precip_memory_alpha": 0.5,
+      "bias": 0.7079746653730801,
+      "rmse": 0.3779366520004342,
+      "seas": 0.8540258407787739,
+      "spatial": 0.7458425532550841,
+      "overall": 0.6714449278518431
+    },
+    {
+      "precip_memory_window": 1,
+      "precip_memory_alpha": 0.75,
+      "bias": 0.7080411025365257,
+      "rmse": 0.37435360737696977,
+      "seas": 0.8501568281287664,
+      "spatial": 0.7492234542644758,
+      "overall": 0.6704437480766844
+    },
+    {
+      "precip_memory_window": 1,
+      "precip_memory_alpha": 1.0,
+      "bias": 0.7072294473711194,
+      "rmse": 0.3660011664028199,
+      "seas": 0.8252635349894362,
+      "spatial": 0.75617970971988,
+      "overall": 0.6636684646208139
+    },
+    {
+      "precip_memory_window": 2,
+      "precip_memory_alpha": 0.25,
+      "bias": 0.7060881039521091,
+      "rmse": 0.3760836755089381,
+      "seas": 0.8372494390800361,
+      "spatial": 0.7312107772672771,
+      "overall": 0.6626579989520901
+    },
+    {
+      "precip_memory_window": 2,
+      "precip_memory_alpha": 0.5,
+      "bias": 0.7060928545168799,
+      "rmse": 0.3720892470523374,
+      "seas": 0.8242260024153223,
+      "spatial": 0.7248986430144697,
+      "overall": 0.6568266867497523
+    },
+    {
+      "precip_memory_window": 2,
+      "precip_memory_alpha": 0.75,
+      "bias": 0.7067850266447616,
+      "rmse": 0.36666830738714273,
+      "seas": 0.810414895745244,
+      "spatial": 0.7297012378722915,
+      "overall": 0.6533923669123599
+    },
+    {
+      "precip_memory_window": 2,
+      "precip_memory_alpha": 1.0,
+      "bias": 0.7078384394264189,
+      "rmse": 0.3554682535451522,
+      "seas": 0.7931164944409865,
+      "spatial": 0.7470432034644892,
+      "overall": 0.6508665977192617
+    },
+    {
+      "precip_memory_window": 3,
+      "precip_memory_alpha": 0.25,
+      "bias": 0.70361979799294,
+      "rmse": 0.372092127429476,
+      "seas": 0.8087146654870132,
+      "spatial": 0.7091770382464997,
+      "overall": 0.6484009072889823
+    },
+    {
+      "precip_memory_window": 3,
+      "precip_memory_alpha": 0.5,
+      "bias": 0.7028069128671968,
+      "rmse": 0.3664330696045931,
+      "seas": 0.7993427320952943,
+      "spatial": 0.6947704729741343,
+      "overall": 0.6408382968853046
+    },
+    {
+      "precip_memory_window": 3,
+      "precip_memory_alpha": 0.75,
+      "bias": 0.7036612830619016,
+      "rmse": 0.35954755604366007,
+      "seas": 0.7872818254146798,
+      "spatial": 0.699413237775241,
+      "overall": 0.6374759755738706
+    },
+    {
+      "precip_memory_window": 3,
+      "precip_memory_alpha": 1.0,
+      "bias": 0.7061738347130395,
+      "rmse": 0.3458505807196208,
+      "seas": 0.7175976840074473,
+      "spatial": 0.727600449001428,
+      "overall": 0.6243056371103839
+    },
+    {
+      "precip_memory_window": 4,
+      "precip_memory_alpha": 0.25,
+      "bias": 0.7007650492132012,
+      "rmse": 0.36952314259041635,
+      "seas": 0.7897808079443467,
+      "spatial": 0.6841235198321788,
+      "overall": 0.6360481298950358
+    },
+    {
+      "precip_memory_window": 4,
+      "precip_memory_alpha": 0.5,
+      "bias": 0.6987803425536366,
+      "rmse": 0.36266023631670713,
+      "seas": 0.7532920548139564,
+      "spatial": 0.659032597431079,
+      "overall": 0.6184413077788449
+    },
+    {
+      "precip_memory_window": 4,
+      "precip_memory_alpha": 0.75,
+      "bias": 0.6993412312287672,
+      "rmse": 0.3546647649564073,
+      "seas": 0.706442086729059,
+      "spatial": 0.6610815897838136,
+      "overall": 0.6053824181745118
+    },
+    {
+      "precip_memory_window": 4,
+      "precip_memory_alpha": 1.0,
+      "bias": 0.7029518859518507,
+      "rmse": 0.33949442138352653,
+      "seas": 0.6666706895244018,
+      "spatial": 0.6980501090238851,
+      "overall": 0.601791776470916
+    },
+    {
+      "precip_memory_window": 6,
+      "precip_memory_alpha": 0.25,
+      "bias": 0.6959241822808535,
+      "rmse": 0.3665088657419073,
+      "seas": 0.7783898185739659,
+      "spatial": 0.6389593889747415,
+      "overall": 0.619945563892867
+    },
+    {
+      "precip_memory_window": 6,
+      "precip_memory_alpha": 0.5,
+      "bias": 0.6917779178464716,
+      "rmse": 0.35870489515182696,
+      "seas": 0.7253036581845169,
+      "spatial": 0.591340777576108,
+      "overall": 0.5917818121897309
+    },
+    {
+      "precip_memory_window": 6,
+      "precip_memory_alpha": 0.75,
+      "bias": 0.6909834850821298,
+      "rmse": 0.350526969939542,
+      "seas": 0.6243386017540873,
+      "spatial": 0.5814688595380104,
+      "overall": 0.5618294790784424
+    },
+    {
+      "precip_memory_window": 6,
+      "precip_memory_alpha": 1.0,
+      "bias": 0.6942964038643751,
+      "rmse": 0.3365213018711538,
+      "seas": 0.4810186632692624,
+      "spatial": 0.6188431924872764,
+      "overall": 0.5326698903730169
+    }
+  ],
+  "runtime_sec": 7.041108131408691
+}

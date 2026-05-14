@@ -16,7 +16,7 @@ The prior pilot run and accidental operator-audit artifacts were archived at:
 
 ## Formal Status
 
-- Active phase: preparing fresh equal-start reframe run.
+- Active phase: structural reframe pass 2 completed and recorded.
 - Harness: Hermes Agent.
 - Model: `gpt-5.5` through OpenAI Codex provider.
 - Start state: original Model C, clean ED source commit `1bac731`.
@@ -31,6 +31,12 @@ experiments/exp_01/harnesses/hermes/pilot_autoresearch_run_20260513
 ```
 
 That run is prompt-calibration evidence because it received mid-run steering. It should not be used as the clean equal-start control condition.
+
+## Recorded Runs
+
+- `harnesses/hermes/base_run`: base-prompt run from original Model C.
+- `harnesses/hermes/reframe_pass_1`: structural-reframe fresh run from original Model C, accepted `F3b`.
+- `harnesses/hermes/reframe_pass_2_continuation`: structural-reframe continuation from `F3b`, accepted `P2F3`.
 
 ## Required Evidence
 

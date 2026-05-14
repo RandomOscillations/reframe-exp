@@ -1,0 +1,28 @@
+{
+  "candidate": "P2F3_arid_two_threshold",
+  "family": "p2_arid_softplus",
+  "n_trials": 600,
+  "runtime_min": 4.36217561562856,
+  "scores_internal": {
+    "bias": 0.7204015741832495,
+    "rmse": 0.3823604178385438,
+    "seas": 0.8532749550914095,
+    "spatial": 0.764608451887071,
+    "overall_simple": 0.6801613497500685,
+    "overall_tier2": 0.6372345651703445
+  },
+  "params": {
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "raw_rate_diag": {
+    "land_mean_yr-1": 0.06871418050711087,
+    "max_yr-1": 0.9950895309448242,
+    "cap_binding_count": 0
+  }
+}
