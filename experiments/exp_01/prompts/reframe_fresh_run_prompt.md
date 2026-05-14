@@ -43,5 +43,5 @@ When you believe all possible directions/angles are exhausted note down the set 
 
 Do not stop until final_report.md is written.
 
-Before proceeding, read necessary files, and reiterate your understanding along with any questions you may have.
+Before proceeding, read necessary files and briefly reiterate your understanding. If you have no blocking questions, continue immediately into baseline verification and the first research loop without waiting for operator confirmation.
 ```
