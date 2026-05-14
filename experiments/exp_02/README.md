@@ -36,7 +36,7 @@ PASS
 
 - Live workspaces: created and verified.
 - Prompt files: draft copies created; update before launch.
-- Run artifacts: Hermes base pass 2 ceiling continuation copied into `experiments/exp_02/harnesses/hermes/base_run/pass_2_ceiling_continuation`.
+- Run artifacts: Hermes base pass 1 P2F3 continuation copied into `experiments/exp_02/harnesses/hermes/base_run/pass_1_p2f3_continuation`; pass 2 ceiling continuation copied into `experiments/exp_02/harnesses/hermes/base_run/pass_2_ceiling_continuation`.
 - Required stop condition: constrained exploration exhaustion with complete logs/reports, not first improvement.
 
 ## Run Records

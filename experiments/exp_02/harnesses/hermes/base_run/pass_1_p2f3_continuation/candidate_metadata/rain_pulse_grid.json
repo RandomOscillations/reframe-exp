@@ -1,0 +1,30 @@
+{
+  "family": "rain_pulse_suppression",
+  "name": "rain_pulse_grid",
+  "n_trials": "deterministic grid around Model C after 5x500 searches found neutral base optima",
+  "fast_score": {
+    "bias": 0.7089579353321338,
+    "rmse": 0.38087041222235707,
+    "seas": 0.8537980821091836,
+    "spatial": 0.7479897435950973,
+    "overall": 0.6302407534688771
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "pulse_a": 0.5,
+    "pulse_c": 0.5
+  },
+  "mechanism": "precipitation concentration/rain-pulse suppression beyond absolute monthly P",
+  "constraint_note": "single global formula; only allowed dbar,p_ann,p_month,t_air,gpp; no lat/lon/region/cell tables"
+}

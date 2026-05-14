@@ -1,0 +1,39 @@
+{
+  "family": "wet_canopy_plus_two_threshold_arid_fuel_continuity",
+  "name": "p2f3_ablate_no_low_current",
+  "search": "ablation: remove low/soft arid threshold",
+  "fast_score": {
+    "bias": 0.719669875543595,
+    "rmse": 0.3813554990024847,
+    "seas": 0.8497556344113724,
+    "spatial": 0.7674677737920315,
+    "overall": 0.6365456928825939
+  },
+  "params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.0,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "base_params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326
+  },
+  "constraint_note": "one global formula using P_ann and Dbar-derived deficit ratio; no region/lat/cell routing"
+}

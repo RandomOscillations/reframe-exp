@@ -1,0 +1,40 @@
+[setup] load drivers/GFED
+[opt] lagged_fuel 500 trials
+{
+  "family": "lagged_fuel",
+  "name": "lagged_fuel_500",
+  "n_trials": 500,
+  "runtime_min": 1.7546589970588684,
+  "fast_score": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seas": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "objective_value": 0.6295495002558874,
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "lag_mix": 0.0,
+    "lag_window": 3.0
+  },
+  "allowed_inputs": [
+    "dbar_monthly.npy",
+    "p_ann_monthly.npy",
+    "p_month_monthly.npy",
+    "t_air_monthly.npy",
+    "EDv3_S3_gpp.nc"
+  ],
+  "constraint_note": "single global formula; no lat/lon, no regions, no cell tables"
+}
