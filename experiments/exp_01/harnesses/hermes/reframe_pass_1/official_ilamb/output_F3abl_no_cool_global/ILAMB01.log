@@ -1,0 +1,14 @@
+[INFO][0][<module>] Darwin Mac-22781.lan 25.2.0 Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:56 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T6041 arm64 arm
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/ILAMB (2.7.3)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/numpy (2.4.4)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/matplotlib (3.10.9)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/netCDF4 (1.7.4)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/cf_units (3.3.1)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/sympy (1.14.0)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/ed-autoresearch-source/.venv/lib/python3.12/site-packages/mpi4py (4.1.1)
+[INFO][0][<module>] 2026-05-13 23:49:33.570730
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-ModelC-final] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-ModelC-final] Success
+[INFO][0][<module>][total time] 18.6 s

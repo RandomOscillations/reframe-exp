@@ -1,0 +1,36 @@
+{
+  "candidate": "F1b_gpp_memory_replace",
+  "family": "f1_replace_gpp",
+  "n_trials": 500,
+  "runtime_min": 2.6098977526028952,
+  "fire_max_rate": 5.0,
+  "scores_internal": {
+    "bias": 0.7067074433268458,
+    "rmse": 0.37899207526497103,
+    "seas": 0.8498179971779067,
+    "spatial": 0.7523138105100645,
+    "overall_tier2": 0.6289218074786008,
+    "overall_simple": 0.671957831569947
+  },
+  "mechanistic_summary": "Ablation: replace instantaneous GPP hump with antecedent GPP memory hump.",
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "mem_months": 3.0
+  },
+  "raw_rate_diag": {
+    "land_mean_yr-1": 0.09147383309962227,
+    "max_yr-1": 0.9982333183288574,
+    "cap_binding_count": 0
+  }
+}

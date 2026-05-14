@@ -1,0 +1,34 @@
+{
+  "candidate": "F3abl_no_wet",
+  "family": "f3_suppressors_fixed",
+  "n_trials": 800,
+  "runtime_min": 5.88195051352183,
+  "fire_max_rate": 5.0,
+  "scores_internal": {
+    "bias": 0.7195334666407245,
+    "rmse": 0.38126548988164144,
+    "seas": 0.8487946961207723,
+    "spatial": 0.766700948157885,
+    "overall_tier2": 0.6361822595538982,
+    "overall_simple": 0.6790736502002559
+  },
+  "mechanistic_summary": "Ablation of F3a with wet_amp=0",
+  "params": {
+    "wet_amp": 0.0,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 76.48116496519896,
+    "arid_amp": 0.7463784815617368,
+    "arid_k": 1.8318106083501675,
+    "arid_c": 4.018565692385908,
+    "cool_amp": 0.12974706836153768,
+    "cool_k": 9.906982777985643,
+    "cool_c": 9.705131096433885
+  },
+  "raw_rate_diag": {
+    "land_mean_yr-1": 0.07170498821143341,
+    "max_yr-1": 0.99747633934021,
+    "cap_binding_count": 0
+  },
+  "ablation_of": "F3a_fixed_suppressors"
+}

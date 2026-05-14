@@ -1,0 +1,16 @@
+{
+  "model": "Research candidate F3abl_no_cool: f3_suppressors_fixed",
+  "candidate_json": "research_candidates/F3abl_no_cool.json",
+  "params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 76.48116496519896,
+    "arid_amp": 0.7463784815617368,
+    "arid_k": 1.8318106083501675,
+    "arid_c": 4.018565692385908,
+    "cool_amp": 0.0,
+    "cool_k": 9.906982777985643,
+    "cool_c": 9.705131096433885
+  }
+}

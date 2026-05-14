@@ -1,0 +1,37 @@
+{
+  "candidate": "F2a_precip_window",
+  "family": "f2_precip_window",
+  "n_trials": 500,
+  "runtime_min": 2.949925414721171,
+  "fire_max_rate": 5.0,
+  "scores_internal": {
+    "bias": 0.692849847434377,
+    "rmse": 0.37718371520222793,
+    "seas": 0.8439502539702244,
+    "spatial": 0.7265213661855464,
+    "overall_tier2": 0.6184231242381634,
+    "overall_simple": 0.6601262956980939
+  },
+  "mechanistic_summary": "Global annual precipitation combustion window: rainfall grows fuel at low-mid values but persistent high precipitation suppresses curing/flammability.",
+  "params": {
+    "k1": 0.01865619040124696,
+    "D_low": 2.9020853562758337,
+    "k2": 0.000328436254636448,
+    "D_high": 3479.10578534345,
+    "fire_exp": 0.5510962590147066,
+    "P_half": 6.447668874775483,
+    "pre_dampen_half": 5.913372759080942,
+    "gpp_af": 0.30792684813094534,
+    "gpp_b": 0.0001493234726406036,
+    "gpp_d": 58.14851578155937,
+    "ign_k": 3.0677971340116312,
+    "ign_c": 15.218070504184626,
+    "Pwet_k": 0.0023437246419693598,
+    "Pwet_c": 4378.590750044091
+  },
+  "raw_rate_diag": {
+    "land_mean_yr-1": 0.11117116395432616,
+    "max_yr-1": 0.8424856066703796,
+    "cap_binding_count": 0
+  }
+}
