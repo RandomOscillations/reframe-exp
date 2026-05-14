@@ -1,0 +1,39 @@
+{
+  "name": "CURING-LAG-v1",
+  "n_trials": 500,
+  "seed": 31,
+  "baseline_proxy": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seasonal": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "best_proxy_scores": {
+    "bias": 0.7069294215643999,
+    "rmse": 0.37904338590903264,
+    "seasonal": 0.8543749679754008,
+    "spatial": 0.753422478313241,
+    "overall": 0.6299571768725845
+  },
+  "best_extra": {
+    "family": "curing_gated_lag_fuel",
+    "gpp_lag_window": 1,
+    "lag_alpha": 0.9947930088492137,
+    "D_cure_k": 0.02449168226564592,
+    "D_cure_c": 289.0374689642952,
+    "P_cure_half": 0.4554493839153478,
+    "P_cure_pow": 3.3233880373129874
+  },
+  "best_params": {
+    "gpp_lag_window": 1,
+    "lag_alpha": 0.9947930088492137,
+    "D_cure_k": 0.02449168226564592,
+    "D_cure_c": 289.0374689642952,
+    "P_cure_half": 0.4554493839153478,
+    "P_cure_pow": 3.3233880373129874
+  },
+  "runtime_min": 3.501,
+  "physical_hypothesis": "Antecedent GPP acts as burnable cured fuel only under current dry-season indicators from Dbar and P_month.",
+  "constraint_note": "Formula uses only allowed model inputs; no region/coordinate/cell routing."
+}

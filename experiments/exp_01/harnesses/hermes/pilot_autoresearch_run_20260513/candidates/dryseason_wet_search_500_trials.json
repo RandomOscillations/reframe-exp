@@ -1,0 +1,43 @@
+{
+  "name": "DRYSEASON-WET-v1",
+  "n_trials": 500,
+  "seed": 23,
+  "baseline_proxy": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seasonal": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "best_proxy_scores": {
+    "bias": 0.7109193531171004,
+    "rmse": 0.37986750734230335,
+    "seasonal": 0.8512316767260627,
+    "spatial": 0.7556327142333985,
+    "overall": 0.6314063519797114
+  },
+  "best_extra": {
+    "family": "dryseason_wet_relief",
+    "wet_strength": 0.9254714800690381,
+    "P_wet_half": 2034.9510173025635,
+    "P_wet_pow": 4.951654707160729,
+    "relief_strength": 0.36437480803076217,
+    "D_relief_k": 0.005304952754307497,
+    "D_relief_c": 1120.7385664121684,
+    "P_relief_half": 0.11526326332777814,
+    "P_relief_pow": 3.4139761765083936
+  },
+  "best_params": {
+    "wet_strength": 0.9254714800690381,
+    "P_wet_half": 2034.9510173025635,
+    "P_wet_pow": 4.951654707160729,
+    "relief_strength": 0.36437480803076217,
+    "D_relief_k": 0.005304952754307497,
+    "D_relief_c": 1120.7385664121684,
+    "P_relief_half": 0.11526326332777814,
+    "P_relief_pow": 3.4139761765083936
+  },
+  "runtime_min": 4.034,
+  "physical_hypothesis": "Annual wetness suppression should be relieved in cell-months with high accumulated dryness and/or low current precipitation, distinguishing seasonal savannas from perhumid wet forests using only allowed inputs.",
+  "constraint_note": "Model formula uses only Dbar, P_ann, P_month, GPP_monthly, T_air. Rough regional diagnostics are not used in the formula; official ILAMB regions are decisive."
+}

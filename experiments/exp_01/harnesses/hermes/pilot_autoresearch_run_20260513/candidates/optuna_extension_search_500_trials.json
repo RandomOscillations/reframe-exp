@@ -1,0 +1,36 @@
+{
+  "n_trials": 500,
+  "seed": 13,
+  "baseline_proxy": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seasonal": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "best_proxy_value_penalized": 0.6307895984578298,
+  "best_proxy_scores": {
+    "bias": 0.710229466901707,
+    "rmse": 0.37969558518365926,
+    "seasonal": 0.8509110954404033,
+    "spatial": 0.7539763911358429,
+    "overall": 0.6307895984578298
+  },
+  "best_extra": {
+    "family": "wet_supp",
+    "gpp_lag_alpha": 0.0,
+    "precip_memory_alpha": 0.0,
+    "wet_strength": 0.9901726411855946,
+    "drydown_strength": 0.0,
+    "P_wet_half": 2253.544627972052,
+    "P_wet_pow": 3.9777542158515304
+  },
+  "best_params": {
+    "family": "wet_supp",
+    "wet_strength": 0.9901726411855946,
+    "P_wet_half": 2253.544627972052,
+    "P_wet_pow": 3.9777542158515304
+  },
+  "runtime_min": 3.116,
+  "constraint_note": "Uses only allowed Model C drivers; GFED used only for scoring/reference diagnostics."
+}

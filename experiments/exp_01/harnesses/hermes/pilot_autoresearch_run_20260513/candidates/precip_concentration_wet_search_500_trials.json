@@ -1,0 +1,47 @@
+{
+  "name": "PRECIP-CONC-WET-v1",
+  "n_trials": 500,
+  "seed": 37,
+  "baseline_proxy": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seasonal": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "best_proxy_scores": {
+    "bias": 0.7112392229470064,
+    "rmse": 0.3798157318998014,
+    "seasonal": 0.8510627361530159,
+    "spatial": 0.7565159163710082,
+    "overall": 0.6316147603696066
+  },
+  "best_extra": {
+    "family": "precip_concentration_wet_relief",
+    "wet_strength": 0.9749769007371538,
+    "P_wet_half": 1779.4206816068952,
+    "P_wet_pow": 4.698056826790257,
+    "relief_strength": 0.7909704781841365,
+    "dry_month_threshold": 18.752075249354416,
+    "dryfrac_k": 23.195108254021612,
+    "dryfrac_c": 0.2251706610087917,
+    "D_support_k": 0.0003532027606815267,
+    "D_support_c": 169.58180624426103,
+    "d_support_weight": 0.31657480284868766
+  },
+  "best_params": {
+    "wet_strength": 0.9749769007371538,
+    "P_wet_half": 1779.4206816068952,
+    "P_wet_pow": 4.698056826790257,
+    "relief_strength": 0.7909704781841365,
+    "dry_month_threshold": 18.752075249354416,
+    "dryfrac_k": 23.195108254021612,
+    "dryfrac_c": 0.2251706610087917,
+    "D_support_k": 0.0003532027606815267,
+    "D_support_c": 169.58180624426103,
+    "d_support_weight": 0.31657480284868766
+  },
+  "runtime_min": 4.407,
+  "physical_hypothesis": "Trailing-12 dry-month fraction distinguishes seasonal savannas from perhumid wet forests and should relieve annual wetness suppression only where dry-season contrast is strong.",
+  "constraint_note": "Formula uses only allowed P_month/P_ann plus existing Model C inputs; no region/coordinate/cell routing."
+}

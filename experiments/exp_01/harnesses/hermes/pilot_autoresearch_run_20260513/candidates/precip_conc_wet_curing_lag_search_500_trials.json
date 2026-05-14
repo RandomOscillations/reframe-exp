@@ -1,0 +1,48 @@
+{
+  "name": "PRECIP-CONC-WET-CURING-LAG-v1",
+  "n_trials": 500,
+  "seed": 41,
+  "q3_fixed_proxy": {
+    "bias": 0.7112392229470064,
+    "rmse": 0.3798157318998014,
+    "seasonal": 0.8510627361530159,
+    "spatial": 0.7565159163710082,
+    "overall": 0.6316147603696066
+  },
+  "best_proxy_scores": {
+    "bias": 0.7110065748401609,
+    "rmse": 0.37978704309946404,
+    "seasonal": 0.8533678769881081,
+    "spatial": 0.75534690918997,
+    "overall": 0.6317170036762213
+  },
+  "best_extra": {
+    "family": "precip_conc_wet_plus_curing_lag",
+    "wet_strength": 0.9749769007371538,
+    "P_wet_half": 1779.4206816068952,
+    "P_wet_pow": 4.698056826790257,
+    "relief_strength": 0.7909704781841365,
+    "dry_month_threshold": 18.752075249354416,
+    "dryfrac_k": 23.195108254021612,
+    "dryfrac_c": 0.2251706610087917,
+    "D_support_k": 0.0003532027606815267,
+    "D_support_c": 169.58180624426103,
+    "d_support_weight": 0.31657480284868766,
+    "gpp_lag_window": 1,
+    "lag_alpha": 0.5954402393200082,
+    "D_cure_k": 0.002611485729454362,
+    "D_cure_c": 1664.2275881508506,
+    "P_cure_half": 4.160530967725436,
+    "P_cure_pow": 4.229374140761087
+  },
+  "best_params": {
+    "gpp_lag_window": 1,
+    "lag_alpha": 0.5954402393200082,
+    "D_cure_k": 0.002611485729454362,
+    "D_cure_c": 1664.2275881508506,
+    "P_cure_half": 4.160530967725436,
+    "P_cure_pow": 4.229374140761087
+  },
+  "runtime_min": 5.336,
+  "physical_hypothesis": "Curing-gated lag may restore AUST/seasonality on top of precipitation-concentration wetness relief; fixed Q3 wetness tests complementarity without opening a broad black-box search."
+}

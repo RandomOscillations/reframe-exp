@@ -1,0 +1,11 @@
+{
+  "name": "LAG-FUEL-v1",
+  "extra": {
+    "family": "lag_fuel",
+    "gpp_lag_alpha": 1.0,
+    "gpp_lag_window": 12,
+    "precip_memory_alpha": 0.0,
+    "wet_strength": 0.0,
+    "drydown_strength": 0.0
+  }
+}
