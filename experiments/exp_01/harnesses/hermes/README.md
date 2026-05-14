@@ -25,6 +25,18 @@ Base prompt reference:
 reframe-exps/experiments/exp_01/prompts/base_fresh_run_prompt.md
 ```
 
+Structural reframe prompt reference:
+
+```text
+reframe-exps/experiments/exp_01/prompts/reframe_fresh_run_prompt.md
+```
+
+The intervention-only excerpt is stored separately at:
+
+```text
+reframe-exps/experiments/exp_01/prompts/structural_reframe_addendum.md
+```
+
 Pilot run record:
 
 ```text
