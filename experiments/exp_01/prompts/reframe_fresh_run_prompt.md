@@ -13,6 +13,8 @@ You are welcome to view this from an angle of different fire types: such as crop
 
 Draw parallels and look at other fields for inspiration. Explore the structure of the problem and solution and see where you can draw inspiration to find the best match. An example of this would be, to solve the neonatal handover problem for newborns, doctors drew inspiration from F1 pit crews and how that analogy can transfer to the ER. The F1 pitstop is highly efficient as the pit crew had 7 seconds to refuel and change the tyres. The surgeons translated it to the ER to specify where everyone should be positioned and how to operate, bringing down errors and the duration of handover. Both problems share the same structure of team organization and efficiency. Zoom out and look for such parallels structurally for this specific problem scenario. You need to do this at each sub-level of whatever hypothesis/approach you are taking.
 
+Run this as repeated outer and inner loops. Each outer loop should inspect global and regional failures, state the missing physical mechanism, define one unified mechanism family, use Optuna or deterministic search as the inner loop, evaluate serious candidates, then accept/reject and use the failure pattern to choose the next hypothesis. Do not treat one Optuna/search run as exhaustion of the research process.
+
 Make sure to perform ablations to properly prune complexity where necessary. Make sure to log what you try out. Do not stop because a candidate improves global Overall. Keep a best-so-far model and continue until further constrained model exploration is exhausted.
 
 A candidate is not acceptable unless it has:
