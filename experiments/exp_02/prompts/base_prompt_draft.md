@@ -1,27 +1,27 @@
-# Base Fresh Run Prompt
+# Base Prompt Draft
 
-Paste this into Hermes from the fresh base workspace.
+Paste this into Hermes from:
 
 ```text
-Read AGENTS.md, program.md, WORKSPACE_MANIFEST.md, and BASELINE_REPRO.md before doing anything else.
+/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_02/hermes/base
+```
 
-Before proceeding, read the necessary files and reiterate your understanding along with any questions you have.
+```text
+Read AGENTS.md, program.md, WORKSPACE_MANIFEST.md, and BASELINE_REPRO.md before doing anything else. Do not stop until final_report.md is written.
 
-Do not stop until final_report.md is written.
+Start from original Model (C). Your job is to push the model-improvement process to a defensible stopping point. The current model performs well (offline) and ranks #1 on the benchmark. However, there are caveats and improvements which can be made. The scientific goal is not merely to increase one scalar metric. The goal is to find whether a unified, mechanistic, interpretable burned-area functional form can improve global fit and regional fire behavior under the fixed input contract.
 
-Start from original Model C. Your job is to push the model-improvement process to a defensible stopping point.
+First triage where the base model is performing well and where it is not over regions by running the benchmark. Then figure out how to incrementally help improve the per-region scores without cheating (see below), one by one, by trying out different things while adhering to the pipeline. Do a deep dive.
 
-The current model performs well offline and ranks strongly on the benchmark. However, there are caveats and improvements that may be possible. The scientific goal is not merely to increase one scalar metric. The goal is to find whether a unified, mechanistic, interpretable burned-area functional form can improve global fit and regional fire behavior under the fixed input contract.
+You are free to alter the functional form along with the hyperparameters by using Optuna with 500-2000 trials at most for substantial searches where runtime allows. Once you believe there is meaningful change, you MUST run the official global and regional ILAMB and use all aspects of the scores to make your judgement.
 
-You are free to alter the functional form and hyperparameters. Use Optuna where appropriate, with substantial searches of 500-2000 trials at most when the direction is promising and runtime allows. Once you believe there is meaningful change, you must run official global ILAMB and official regional ILAMB, and use all aspects of the scores to make your judgment.
+You are welcome to view this from an angle of different fire types: such as cropland, forest fire, etc. or different region types or any other angle/hybrid you may deem worthy. But you must have one global formula, ie. you may not have separate sub-region level formulas with some black box type routing mechanism for instance. Inferring region level physics/fire type level physics from cell level data and encoding them all in some global functional form which "acts differently" per "type" is fair game.
 
-The final model must be one global, interpretable formula. It may include smooth ceilings, floors, saturations, humps, thresholds, piecewise functions, interactions, or gates if every term has a physical explanation and uses only allowed inputs.
+Run repeated outer and inner loops. Each outer loop should inspect global and regional failures, state the missing physical mechanism, define one unified mechanism family, use Optuna or deterministic search as the inner loop, evaluate serious candidates, then accept/reject and use the failure pattern to choose the next hypothesis. Do not treat one Optuna/search run as exhaustion of the research process.
 
-The optimization goal is not just global Overall. Improve global Overall while preserving or improving regional Overall spread and regional physical realism. Do not accept a candidate that improves global Overall by damaging important weak regions.
+Do not overindex on one convenient or locally promising method. If a direction only gives marginal movement, creates regional tradeoffs, or starts looking like parameter fitting rather than mechanism discovery, record the evidence, reject or demote it, and move to a different plausible mechanism family. Improvements only in the third decimal place are not meaningful by themselves. Continue grinding until you either find a meaningful, mechanistically defensible delta or can explain why all remaining plausible directions are exhausted under the constraints.
 
-Make sure to perform ablations to prune complexity where necessary. Make sure to log what you try. Do not stop because a candidate improves global Overall. Keep a best-so-far model and continue until further constrained model exploration is exhausted.
-
-This is intended to be a serious multi-hour run. Unless blocked, continue working through multiple substantial mechanism families before finalizing. Do not compress the run into a short first-improvement pass.
+Make sure to perform ablations to properly prune complexity where necessary. Make sure to log what you try out. Do not stop because a candidate improves global Overall. Keep a best-so-far model and continue until further constrained model exploration is exhausted.
 
 A candidate is not acceptable unless it has:
 - official global ILAMB,
@@ -36,9 +36,7 @@ Do not use:
 - latitude/longitude hacks,
 - per-cell lookup tables,
 - named-region routing,
-- per-region formulas,
-- arbitrary residual correction coefficients,
-- score-only hyperparameter fitting without a physical mechanism.
+- arbitrary residual correction coefficients.
 
 Maintain these logs throughout:
 - research_log.md
@@ -47,7 +45,9 @@ Maintain these logs throughout:
 - regional_analysis.md
 - constraint_checks.md
 
-When you believe all possible directions/angles are exhausted, write final_report.md. Include the set of best models you found: global best, regional best, balanced best, and final accepted model if these differ. Include related rankings, mechanisms tried, Optuna/search trial counts, ablations, reasoning behind choosing or rejecting models, where the model still fails, and why remaining failures appear unresolved under the current constraints.
+When you believe all possible directions/angles are exhausted note down the set of best models you get: this could be global, regional, both, etc along with related rankings, mechanisms tried, your reasoning behind choosing them, where it is failing, and why the remaining failures appear unresolved under the current constraints.
 
 Do not stop until final_report.md is written.
+
+Before proceeding, read necessary files, and reiterate your understanding along with any questions you may have. If you have no blocking questions, continue immediately into baseline verification and the first research loop without waiting for operator confirmation.
 ```
