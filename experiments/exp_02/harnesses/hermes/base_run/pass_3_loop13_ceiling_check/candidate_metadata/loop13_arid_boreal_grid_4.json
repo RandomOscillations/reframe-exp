@@ -1,0 +1,59 @@
+{
+  "family": "combined_protect_attenuate",
+  "name": "loop13_arid_boreal_grid_4",
+  "search": "arid attenuation plus deterministic boreal-protection grid rank=4",
+  "n_trials": 0,
+  "fast_score": {
+    "bias": 0.7280002239660621,
+    "rmse": 0.38852512156506014,
+    "seas": 0.863025765006696,
+    "spatial": 0.7935059644773736,
+    "overall": 0.648263736757719
+  },
+  "params": {
+    "cure_amp": 2.198160687027274,
+    "wet_amp": 0.7620978422855356,
+    "warm_k": 0.10362138201950798,
+    "warm_c": 3.86577907789368,
+    "warm_floor": 0.9589052885633222,
+    "arid_k": 7.324404446277851,
+    "arid_c": 0.7461300625963763,
+    "arid_att": 0.8649681779593094,
+    "pann_k": 0.02,
+    "pann_c": 1500,
+    "wet_att": 0.0,
+    "cold_k": 0.5,
+    "cold_c": 5,
+    "amp_k": 0.5,
+    "amp_c": 30,
+    "protect_amp": 0.5
+  },
+  "hotwet_base_params": {
+    "drying_k": 0.151909755193002,
+    "drying_c": 71.10327035972242,
+    "pconc_half": 0.17733668059544083,
+    "pconc_pow": 3.6607083389419017,
+    "temp_k": 0.5483001798421393,
+    "temp_c": 6.554353498957058,
+    "cure_amp": 1.5049730144952744,
+    "wet_k": 1.9603357957179453,
+    "wet_c": 0.6295980601621034,
+    "wet_amp": 0.65,
+    "warm_k": 0.5,
+    "warm_c": 8.0,
+    "warm_floor": 0.0
+  },
+  "p2f3_params": {
+    "wet_amp": 0.8844066447148519,
+    "wet_k": 0.03746225268483959,
+    "wet_c": 1733.7962048788854,
+    "ratio_p0": 10.550923117584711,
+    "arid_amp1": 0.09765875631019073,
+    "arid_k1": 8.862392037192233,
+    "arid_c1": 0.8190773026156323,
+    "arid_amp2": 0.872802820380493,
+    "arid_k2": 1.2991349033470558,
+    "arid_c2": 5.00184048998816
+  },
+  "constraint_note": "single global formula using allowed P/T/Dbar/GPP-derived quantities; no region/lat/cell routing"
+}
