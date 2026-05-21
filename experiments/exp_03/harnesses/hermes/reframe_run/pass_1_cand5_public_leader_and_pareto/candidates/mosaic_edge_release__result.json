@@ -1,0 +1,167 @@
+{
+  "family": "mosaic_edge_release",
+  "n_trials": 500,
+  "seed": 20260524,
+  "fast_objective": 0.530763463116788,
+  "fast_global": {
+    "bias": 0.7129873113593522,
+    "rmse": 0.3833755334378951,
+    "seasonal": 0.859131893413297,
+    "spatial": 0.768582473263056,
+    "overall": 0.6367400093784745
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7129873113593522,
+      "rmse": 0.3833755334378951,
+      "seasonal": 0.859131893413297,
+      "spatial": 0.768582473263056,
+      "overall": 0.6367400093784745
+    },
+    "bona": {
+      "bias": 0.8679773815835149,
+      "rmse": 0.35563588294901816,
+      "seasonal": 0.9341535352680471,
+      "spatial": 0.5278682337474426,
+      "overall": 0.6515413830134259
+    },
+    "tena": {
+      "bias": 0.37232871565209863,
+      "rmse": 0.1336263129703465,
+      "seasonal": 0.6960254426982531,
+      "spatial": 0.10904084795079257,
+      "overall": 0.30282939131565595
+    },
+    "ceam": {
+      "bias": 0.26176860073239727,
+      "rmse": 0.1666516180989271,
+      "seasonal": 0.8837830102603226,
+      "spatial": 0.06093540687412802,
+      "overall": 0.3002598091328499
+    },
+    "nhsa": {
+      "bias": 0.4485656224974622,
+      "rmse": 0.31256297655239484,
+      "seasonal": 0.9254100313453059,
+      "spatial": 0.5276918457360107,
+      "overall": 0.4958931791968384
+    },
+    "shsa": {
+      "bias": 0.4390364830176638,
+      "rmse": 0.25423540105408465,
+      "seasonal": 0.8406629665458119,
+      "spatial": 0.29146975549149956,
+      "overall": 0.41977941503013466
+    },
+    "euro": {
+      "bias": 0.3652517574874132,
+      "rmse": 0.14088845672689254,
+      "seasonal": 0.8221771343580563,
+      "spatial": 0.04679437395009463,
+      "overall": 0.31354198945612705
+    },
+    "mide": {
+      "bias": 0.3678723798353716,
+      "rmse": 0.11029223181139845,
+      "seasonal": 0.7938058650483873,
+      "spatial": 0.039582066555070426,
+      "overall": 0.29828619248283295
+    },
+    "nhaf": {
+      "bias": 0.7654877903641588,
+      "rmse": 0.40217078406526263,
+      "seasonal": 0.9105426156434013,
+      "spatial": 0.6457613692644739,
+      "overall": 0.648603522294453
+    },
+    "shaf": {
+      "bias": 0.7477433017729592,
+      "rmse": 0.43020361630535436,
+      "seasonal": 0.9182314827686004,
+      "spatial": 0.5905301590644699,
+      "overall": 0.6441092463316161
+    },
+    "boas": {
+      "bias": 0.849034913106725,
+      "rmse": 0.33157912432062137,
+      "seasonal": 0.7966724044813914,
+      "spatial": 0.7169636020568576,
+      "overall": 0.6458106802321569
+    },
+    "ceas": {
+      "bias": 0.7704689537621617,
+      "rmse": 0.3153254481093124,
+      "seasonal": 0.7281601767091704,
+      "spatial": 0.5850238643407832,
+      "overall": 0.5807954741321503
+    },
+    "seas": {
+      "bias": 0.48810601500659134,
+      "rmse": 0.2862818448397439,
+      "seasonal": 0.8732772779996969,
+      "spatial": 0.2167413476240374,
+      "overall": 0.43979905755273413
+    },
+    "eqas": {
+      "bias": 0.507387015674825,
+      "rmse": 0.3274475226799511,
+      "seasonal": 0.8489947292797592,
+      "spatial": 0.1372844304147871,
+      "overall": 0.4426580394006831
+    },
+    "aust": {
+      "bias": 0.696742556995725,
+      "rmse": 0.3548118373175848,
+      "seasonal": 0.5876130436936081,
+      "spatial": 0.6400167372355162,
+      "overall": 0.5551230949259573
+    }
+  },
+  "weak_mean": 0.376630884195982,
+  "weak_min": 0.29828619248283295,
+  "protect_min": 0.5551230949259573,
+  "params": {
+    "exp_mult": 1.1066776538078427,
+    "boost": 1.7469472933161907,
+    "dry_k": 0.012719238193233968,
+    "dry_c": 223.42106281098148,
+    "p_low_k": 0.013724273475579307,
+    "p_low_c": 369.144710522072,
+    "p_high_k": 0.01804861919429713,
+    "p_high_c": 5019.308601688522,
+    "gpp_lo_k": 19.8273003261204,
+    "gpp_lo_c": 0.0026911938428577065,
+    "gpp_hi_k": 11.73700615371164,
+    "gpp_hi_c": 1.2579655854045815,
+    "cap_amp": 0.31243498293816896,
+    "wet_k": 0.005789454375200487,
+    "wet_c": 1637.2733572735358,
+    "lowdef_k": 0.002637151620328882,
+    "lowdef_c": 257.61293240789195,
+    "arid_amp": 0.1930432224255934,
+    "arid_k": 0.02321508838444906,
+    "arid_c": 771.2996419468487,
+    "rainbreak_k": 0.012022423640439078,
+    "rainbreak_c": 1.5850179760211605,
+    "sen_k": 4.438269133074868,
+    "sen_c": 1.202663096310708,
+    "monsoon_k": 0.0006755534257233115,
+    "monsoon_c": 987.85385746398,
+    "cold_guard_amp": 0.19778757312496847,
+    "cold_k": 0.0308005927171088,
+    "cold_c": 286.8300852252048,
+    "short_k": 36.70286782398559,
+    "short_c": 0.1187823271676362,
+    "edge_k": 0.06231029349896723,
+    "edge_c": 1.8281018200266477,
+    "annfuel_k": 0.9687741678039236,
+    "annfuel_c": 0.24037793616301575,
+    "edge_mix": 0.3319761955406695,
+    "cap_relief": 0.07658327358638445
+  },
+  "diagnostics": {
+    "raw_land_mean": 0.08283981583382714,
+    "raw_max": 1.4617512226104736
+  },
+  "mechanism_note": "Cycle-3-after-report constrained fire mechanism search.\n\nThis continuation treats previous reports as checkpoints, not endpoints.  Failure\nlearning carried forward:\n  * ED-Cand4Abl-no_hotboost is the global/public leader but loses NHSA/SHSA/SEAS/\n    CEAM/TENA mostly through regional Spatial and Seasonal degradation relative to\n    ED-Cand3-release_window_wetcap.\n  * ED-Cand3 is the broad regional compromise, but leaves global/public score on the\n    table and still weakens BONA/NHSA.\n  * Dual-corridor repair helped weak wet/temperate regions but damaged BONA/Africa.\n  * Senescence repaired NHSA/EURO/EQAS but hurt strong belts.\n  * Hotboost and month-to-month dbar drydown were pruned; blunt wet suppression hurt\n    global Spatial.\n\nNew analogies converted into testable one-global-formula mechanisms:\n  1. monsoon_break_release: wildfire as a supply-chain handoff in monsoon systems.\n     Wet-season fuel charging is only useful when followed by a rain-free break, so\n     the release term is gated by recent precipitation hiatus and live-fuel drawdown.\n  2. mosaic_edge_release: a fire-line/forest-edge analogy.  Burning in humid mixed\n     regions occurs at edges where high annual productivity is temporarily cured, not\n     in the wet core; the wet cap is relaxed only under allowed cell-state evidence of\n     a dry edge month.\n  3. protected_corridor: a power-grid protection analogy.  Keep the global/public\n     corridor terms that helped Cand4Abl, but add physically inferred protection for\n     monsoon dry-season phase and cold productive short-season cells to avoid moving\n     power through the wrong line.\n\nAll formulas are one global formula with global parameters and use only allowed Model C\ninputs/transforms: dbar, annual precipitation, monthly precipitation, monthly air\ntemperature, and monthly GPP. GFED is used only for screening/evaluation.\n"
+}
