@@ -11,13 +11,6 @@ The harness starts from original Model C under the fixed input contract and asks
 - Prompt: `prompts/reframe_prompt_draft.md`
 - Local full-workspace archive: `/Users/adithyasrinivasan/Projects/creativity-docs/_archive/2026-05-21__ed_fire_exp03_hermes_reframe_cand5_public_leader_and_pareto_final/full_workspace`
 
-## Matched Control Workspace
-
-- Harness: Hermes Agent
-- Workspace: `/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03/hermes/control`
-- Prompt: `prompts/control_prompt_draft.md`
-- Purpose: non-reframe/control run from the same clean Model C starting point as the exp_03 reframe run.
-
 ## Headline Outcome
 
 The run produced a stronger Pareto frontier rather than one candidate that dominates on every criterion.
