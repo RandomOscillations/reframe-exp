@@ -1,0 +1,51 @@
+{
+  "model": "ED-C2-annual_wet_amp",
+  "family": "annual_wet_amp",
+  "n_trials": 1000,
+  "objective": "targeted fixed-Model-C mechanism; score=0.70 global + 0.22 macroregion mean + 0.08 macroregion min using ILAMB-proxy scorer",
+  "internal_objective": 0.608348636891553,
+  "internal_global": {
+    "overall": 0.6297253727503342,
+    "bias": 0.7145745737991686,
+    "rmse": 0.3835292623565604,
+    "seas": 0.8518736217362881,
+    "spatial": 0.7302709424542597
+  },
+  "internal_macroregions": {
+    "bona": {
+      "overall": 0.6284505347330719,
+      "bias": 0.8410648439471754,
+      "rmse": 0.3373961178960429,
+      "seas": 0.7781863914146188,
+      "spatial": 0.6355948932973761
+    },
+    "tena": {
+      "overall": 0.5116435775982148,
+      "bias": 0.6703764713677827,
+      "rmse": 0.2729910997426325,
+      "seas": 0.7285937768668902,
+      "spatial": 0.45453254650156777
+    },
+    "tropics": {
+      "overall": 0.6259466407479819,
+      "bias": 0.7156636549921586,
+      "rmse": 0.39777419425682126,
+      "seas": 0.8762475015739339,
+      "spatial": 0.652556644415998
+    },
+    "sh": {
+      "overall": 0.535948151620041,
+      "bias": 0.6869365692842765,
+      "rmse": 0.3021460480693498,
+      "seas": 0.6138454382725831,
+      "spatial": 0.6236782367404101
+    }
+  },
+  "params": {
+    "P_amp": 0.8892825253145448,
+    "P_wet": 2320.319269005085,
+    "P_pow": 5.94946409679268,
+    "rate_power": 1.2105860353271332
+  },
+  "elapsed_min": 4.92616073290507
+}

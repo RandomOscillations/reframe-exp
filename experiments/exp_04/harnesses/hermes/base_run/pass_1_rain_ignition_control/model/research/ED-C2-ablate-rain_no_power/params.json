@@ -1,0 +1,8 @@
+{
+  "model": "ED-C2-ablate-rain_no_power",
+  "params": {
+    "rain_shift": 1.8584561329682763,
+    "ign_k": 0.6241606715796371,
+    "rate_power": 1.0
+  }
+}

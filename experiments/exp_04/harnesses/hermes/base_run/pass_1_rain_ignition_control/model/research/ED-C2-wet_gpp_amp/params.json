@@ -1,0 +1,52 @@
+{
+  "model": "ED-C2-wet_gpp_amp",
+  "family": "wet_gpp_amp",
+  "n_trials": 1000,
+  "objective": "targeted fixed-Model-C mechanism; score=0.70 global + 0.22 macroregion mean + 0.08 macroregion min using ILAMB-proxy scorer",
+  "internal_objective": 0.6104607256224537,
+  "internal_global": {
+    "overall": 0.6318292937678752,
+    "bias": 0.7159983387567392,
+    "rmse": 0.38321809285193664,
+    "seas": 0.8539259796097578,
+    "spatial": 0.7386169197801424
+  },
+  "internal_macroregions": {
+    "bona": {
+      "overall": 0.633081163609483,
+      "bias": 0.8493327869456075,
+      "rmse": 0.3416513993076227,
+      "seas": 0.7811310404743316,
+      "spatial": 0.6353875686761052
+    },
+    "tena": {
+      "overall": 0.5122398798231592,
+      "bias": 0.6754572382329922,
+      "rmse": 0.2739757893427926,
+      "seas": 0.7333700688302133,
+      "spatial": 0.4412031549571721
+    },
+    "tropics": {
+      "overall": 0.6294732004593083,
+      "bias": 0.7160768043793078,
+      "rmse": 0.3970006636689782,
+      "seas": 0.8759370782691166,
+      "spatial": 0.6747471883901616
+    },
+    "sh": {
+      "overall": 0.5379517488187454,
+      "bias": 0.6822653982879723,
+      "rmse": 0.3030767982810196,
+      "seas": 0.6466580280200137,
+      "spatial": 0.610368071754475
+    }
+  },
+  "params": {
+    "WG_amp": 0.8961189908975622,
+    "WG_Phalf": 115.2577724439232,
+    "WG_k": 23.547110749210646,
+    "WG_c": 0.9263679918657868,
+    "rate_power": 1.1420412669916542
+  },
+  "elapsed_min": 4.90314337015152
+}
