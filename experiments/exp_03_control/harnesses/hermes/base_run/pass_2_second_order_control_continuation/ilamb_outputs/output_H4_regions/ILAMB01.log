@@ -1,0 +1,34 @@
+[INFO][0][<module>] Darwin Mac.lan 25.2.0 Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:56 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T6041 arm64 arm
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB (2.7.3)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/numpy (2.4.6)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/matplotlib (3.10.9)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/netCDF4 (1.7.4)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/cf_units (3.3.1)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/sympy (1.14.0)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/mpi4py (4.1.2)
+[INFO][0][<module>] 2026-05-21 21:12:41.100010
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-H1-annual-humid-supp] Success
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-H1m-mild-humid] Success
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-H2-wetmonth] Success
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-H3-seasonal-contrast] Success
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-H4-dry-gated-wetmonth] Success
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-ModelC-final] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-H1-annual-humid-supp] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-H1m-mild-humid] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-H2-wetmonth] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-H3-seasonal-contrast] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-H4-dry-gated-wetmonth] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-ModelC-final] Success
+[INFO][0][<module>][total time] 324.0 s

@@ -1,0 +1,20 @@
+ScalarName                    Bias Score  Overall Score  RMSE Score  Seasonal Cycle Score  Spatial Distribution Score
+Run                   Region                                                                                         
+C0                    global      0.7281         0.6715      0.5058                0.8457                      0.7724
+H1_retuned            global      0.7243         0.6384      0.5173                0.8496                      0.5837
+H1m_mild              global      0.7263         0.6538      0.5068                0.8460                      0.6828
+H2_wetmonth           global      0.7290         0.6534      0.5168                0.8521                      0.6524
+H3_contrast           global      0.7304         0.6654      0.5110                0.8480                      0.7267
+H4_dry_gated_wetmonth global      0.7246         0.6369      0.5162                0.8490                      0.5786
+
+Overall by weak regions:
+Run         C0  H1_retuned  H1m_mild  H2_wetmonth  H3_contrast  H4_dry_gated_wetmonth
+Region                                                                               
+euro    0.3611      0.5173    0.4096       0.4932       0.4198                 0.5148
+ceam    0.3762      0.5039    0.4269       0.4327       0.4104                 0.4707
+tena    0.3815      0.4727    0.4258       0.4865       0.4289                 0.4998
+mide    0.3828      0.4191    0.4101       0.4089       0.4115                 0.4266
+seas    0.4872      0.5749    0.5377       0.5272       0.5149                 0.5527
+shsa    0.5072      0.6404    0.5755       0.5844       0.5551                 0.6208
+eqas    0.5074      0.6801    0.5694       0.6268       0.5525                 0.6622
+global  0.6715      0.6384    0.6538       0.6534       0.6654                 0.6369

@@ -1,0 +1,26 @@
+# Candidate Registry
+
+| ID | Formula family | Added mechanism(s) | Search/diagnostics | Official global | Official regional outcome | Public benchmark | Decision |
+|---|---|---|---|---|---|---|---|
+| C0 | Original Model C | None | Original 12-param baseline reproduced | Overall 0.6715; Bias 0.7281; RMSE 0.5058; Seasonal 0.8457; Spatial 0.7724 | Weak: EURO 0.3611, CEAM 0.3762, TENA 0.3815, MIDE 0.3828, SEAS 0.4872, SHSA 0.5072, EQAS 0.5074 | Clean public: Overall 0.6713, tied with copied `ED-ModelC-baseline`, rank #1 above CLASSIC 0.6660 and CLM6.0 0.6606 | Retain as best global/public model |
+| H1 | Annual humid suppression with retuned base | `1/(1+(P_ann/P_humid)^q)` | Optuna 500 full-field proxy trials; best `P_humid=2414.9`, `q=4.535`, plus retuned selected base params | Overall 0.6384; Bias 0.7243; RMSE 0.5173; Seasonal 0.8496; Spatial 0.5837 | Large weak-region gains (e.g. EQAS 0.6801, SHSA 0.6404, EURO 0.5173) but harms Africa/boreal/spatial | Not run; rejected before public due global/spatial collapse | Reject: mechanism helps humid regional bias but over-suppresses/warps global spatial distribution |
+| H1m | Mild annual humid suppression ablation on fixed C base | Same as H1 with `P_humid=1500`, `q=0.5` | Deterministic grid ablation over P_humid/q on fixed base | Overall 0.6538; Spatial 0.6828 | Moderate weak-region gains (e.g. EQAS 0.5694, SHSA 0.5755, SEAS 0.5377) but weaker than C0 globally | Not run; rejected before public | Reject: regional improvements not worth -0.0177 global Overall and -0.0896 Spatial |
+| H2 | Wet-month logistic suppression | `supp(P_month; wet_k, wet_c)` added to Model C | Deterministic grid over wet_k/wet_c on fixed base; best proxy at wet_k=0.1, wet_c=20 | Overall 0.6534; Seasonal 0.8521; Spatial 0.6524 | Improves weak-region bias/overall (EURO 0.4932, EQAS 0.6268) but hurts boreal/spatial | Not run; rejected before public | Reject: good timing/seasonality but spatial loss too large |
+| H3 | Seasonal contrast / curing gate | `1/(1+(P_month/(P_ann/12+eps))^q)` | Deterministic grid over eps/q on fixed base; best proxy eps=0.5, q=0.25 | Overall 0.6654; Bias 0.7304; RMSE 0.5110; Seasonal 0.8480; Spatial 0.7267 | Best compromise candidate: weak regions improve, but C0 still better globally/spatially | Clean public: Overall 0.6652; below Model C 0.6713 and CLASSIC 0.6660, above CLM6.0 0.6606 | Reject as final global model; record as regional-compromise alternative only |
+
+| H4 | Dry-gated wet-month suppression | `1 - wet_alpha * supp(Dbar; drygate_k,drygate_c) * (1 - supp(P_month; wet_k,wet_c))` | Optuna 500 proxy trials; best `wet_k=0.1064`, `wet_c=5.6966`, `drygate_k=0.01446`, `drygate_c=2347.1`, `wet_alpha=0.9824`; proxy global 0.6878 but proxy was misleading | Overall 0.6369; Bias 0.7246; RMSE 0.5162; Seasonal 0.8490; Spatial 0.5786 | Large weak-region gains (EURO 0.5148, CEAM 0.4707, TENA 0.4998, MIDE 0.4266, SEAS 0.5527, SHSA 0.6208, EQAS 0.6622) but severe global/boreal/Africa/Australia spatial harm | Not run; rejected after official global/regional because far below C0/H3 | Reject: second-order dry gating did not solve structural spatial tradeoff |
+| P1 | Dry-gated annual humid suppression proxy | `1 - alpha * lowdry(Dbar) * (1 - humid(P_ann))` | Optuna 500 proxy trials in `artifacts/search2/dry_gated_humid_500.json`; proxy global 0.6523, weak mean 0.3848 | Not run | Proxy suggested poor spatial (0.4328) despite bias correction | Not run | Reject before official: less promising than H4, and H4 failed official |
+| P2 | Wet productive forest proxy | Smooth high GPP × high annual precip × low Dbar suppression | Optuna 500 proxy trials in `artifacts/search2/wet_productive_forest_500.json`; proxy global 0.5927, weak mean 0.3845 | Not run | Proxy seasonality/spatial poor | Not run | Reject before official |
+| P3 | Hyperarid low-fuel proxy | Low annual precip × low GPP fuel-discontinuity suppression | Deterministic 64-point grid in `artifacts/search2/hyperarid_fuel_grid.json`; best proxy global 0.5525, weak mean 0.3240 | Not run | Cannot separate MIDE overprediction from well-performing AUST drylands | Not run | Reject before official |
+| P4 | Cool uncured ignition interaction proxy | Cool temperature × low Dbar suppression | Optuna 500 proxy trials in `artifacts/search2/cool_uncured_supp_500.json`; best proxy global 0.5684, weak mean 0.3443 | Not run | Not competitive | Not run | Reject before official |
+| P5 | Productivity shape grid | Retuned GPP shape (`gpp_af`, `gpp_d`) with fire exponent and monthly precipitation half-saturation | Deterministic 360-point grid in `artifacts/search2/productivity_shape_grid.json`; best proxy global 0.6185, weak mean 0.3477 | Not run | Less promising than H4 proxy; H4 failed official | Not run | Reject before official |
+
+Artifacts:
+- Candidate score table: `artifacts/official_candidate_regional_scores.csv`
+- H1 params: `models/H1_annual_humid_supp/params.json`
+- H1m params: `models/H1m_mild_humid/params.json`
+- H2 params: `models/H2_wetmonth/params.json`
+- H3 params: `models/H3_seasonal_contrast/params.json`
+- H4 params: `models/H4_dry_gated_wetmonth/params.json`
+- Continuation search artifacts: `artifacts/search2/*.json`
+- Updated candidate score table: `artifacts/official_candidate_regional_scores_v2.csv`

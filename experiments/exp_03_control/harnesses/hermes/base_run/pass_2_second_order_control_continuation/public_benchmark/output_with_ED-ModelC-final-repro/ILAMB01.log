@@ -1,0 +1,107 @@
+[INFO][0][<module>] Darwin Mac.lan 25.2.0 Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:56 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T6041 arm64 arm
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB (2.7.3)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/numpy (2.4.6)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/matplotlib (3.10.9)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/netCDF4 (1.7.4)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/cf_units (3.3.1)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/sympy (1.14.0)
+[INFO][0][<module>] /Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/mpi4py (4.1.2)
+[INFO][0][<module>] 2026-05-21 18:43:43.150146
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][CLASSIC] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][CLASSIC] Spatial data was clipped from the comparison:  before: [192 180 360] after: [192 150 360]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][CLASSIC] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][CLM-FATES] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][CLM-FATES] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][CLM6.0] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][CLM6.0] Spatial data was clipped from the comparison:  before: [192 192 288] after: [192 160 288]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][CLM6.0] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ED-ModelC-baseline] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ED-ModelC-baseline] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-ModelC-baseline] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ED-ModelC-final-repro] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ED-ModelC-final-repro] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ED-ModelC-final-repro] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][EDv3] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][EDv3] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][EDv3] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ELM] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ELM] Spatial data was clipped from the comparison:  before: [192 192 288] after: [192 160 288]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ELM] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][ELM-FATES] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][ELM-FATES] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][JSBACH] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[DEBUG][0][WorkConfront][BurnedArea/GFED4.1S][JSBACH]
+Traceback (most recent call last):
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB/ConfBurntArea.py", line 39, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB/ilamblib.py", line 2580, in MakeComparable
+    com.trim(
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB/Variable.py", line 2158, in trim
+    i = _whichInterval(lat[0], self.lat_bnds)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_03_control/hermes/base/.venv/lib/python3.12/site-packages/ILAMB/Variable.py", line 2151, in _whichInterval
+    ind = ind[0]
+          ~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][JULES-ES] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][JULES-ES] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][JULES-ES] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJ-EOSIM] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJ-EOSIM] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][LPJ-EOSIM] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJ-GUESS] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJ-GUESS] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][LPJ-GUESS] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJmL] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][LPJmL] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][LPJmL] Success
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][VISIT-UT] Spatial data was clipped from the reference:  before: [240 360 720] after: [240 300 720]
+[INFO][0][MakeComparable][BurnedArea/GFED4.1S][VISIT-UT] Spatial data was clipped from the comparison:  before: [192 360 720] after: [192 300 720]
+[INFO][0][AnalysisMeanStateSpace][burntArea] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][burntArea] RMSE scored using Collier2018
+[INFO][0][confront][BurnedArea/GFED4.1S][VISIT-UT] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][CLASSIC] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][CLM-FATES] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][CLM6.0] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-ModelC-baseline] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ED-ModelC-final-repro] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][EDv3] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ELM] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][ELM-FATES] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][JULES-ES] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][LPJ-EOSIM] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][LPJ-GUESS] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][LPJmL] Success
+[INFO][0][modelPlots][BurnedArea/GFED4.1S][VISIT-UT] Success
+[INFO][0][<module>][total time] 241.3 s
