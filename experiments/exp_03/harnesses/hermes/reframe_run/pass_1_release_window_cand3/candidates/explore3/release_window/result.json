@@ -1,0 +1,139 @@
+{
+  "family": "release_window",
+  "n_trials": 500,
+  "seed": 20260521,
+  "fast_objective": 0.4286780936192971,
+  "fast_global": {
+    "bias": 0.7113138455269582,
+    "rmse": 0.3821253498346592,
+    "seasonal": 0.8536644042553132,
+    "spatial": 0.7708759553320697,
+    "overall": 0.635236458385103
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7113138455269582,
+      "rmse": 0.3821253498346592,
+      "seasonal": 0.8536644042553132,
+      "spatial": 0.7708759553320697,
+      "overall": 0.635236458385103
+    },
+    "bona": {
+      "bias": 0.8672508124810829,
+      "rmse": 0.35409579853547235,
+      "seasonal": 0.9340144614190089,
+      "spatial": 0.5598460464787113,
+      "overall": 0.6560922883218051
+    },
+    "tena": {
+      "bias": 0.3458402020519938,
+      "rmse": 0.12466384714948422,
+      "seasonal": 0.7007583660134231,
+      "spatial": 0.10269000712505513,
+      "overall": 0.29074274525690574
+    },
+    "ceam": {
+      "bias": 0.22695373960940798,
+      "rmse": 0.15668542216197917,
+      "seasonal": 0.876984899520045,
+      "spatial": 0.05749259391079473,
+      "overall": 0.2836259694956023
+    },
+    "nhsa": {
+      "bias": 0.4338743816094205,
+      "rmse": 0.3111480539360581,
+      "seasonal": 0.9250950556695974,
+      "spatial": 0.5116742018200278,
+      "overall": 0.4878023547634303
+    },
+    "shsa": {
+      "bias": 0.41330789776536614,
+      "rmse": 0.25181036824548897,
+      "seasonal": 0.8382154121154135,
+      "spatial": 0.2860637718773785,
+      "overall": 0.4090859526690837
+    },
+    "euro": {
+      "bias": 0.32420451417681884,
+      "rmse": 0.13012311995998685,
+      "seasonal": 0.8243051304091956,
+      "spatial": 0.05096972694803551,
+      "overall": 0.29732168760514044
+    },
+    "mide": {
+      "bias": 0.36174678804315347,
+      "rmse": 0.10636735227751513,
+      "seasonal": 0.7943077070086009,
+      "spatial": 0.0402144034803519,
+      "overall": 0.29512506518838166
+    },
+    "nhaf": {
+      "bias": 0.7655305830322512,
+      "rmse": 0.4026137583109208,
+      "seasonal": 0.8997182596992823,
+      "spatial": 0.6477969147552609,
+      "overall": 0.6473006428568145
+    },
+    "shaf": {
+      "bias": 0.7546308921448106,
+      "rmse": 0.43005163242294575,
+      "seasonal": 0.9159454166955874,
+      "spatial": 0.6012206822710482,
+      "overall": 0.647755191350358
+    },
+    "boas": {
+      "bias": 0.8330911984493098,
+      "rmse": 0.32163639380691866,
+      "seasonal": 0.7967174650905765,
+      "spatial": 0.7115968104347379,
+      "overall": 0.6362949100062951
+    },
+    "ceas": {
+      "bias": 0.7648729773490991,
+      "rmse": 0.3080159613193812,
+      "seasonal": 0.7277198647061123,
+      "spatial": 0.5882587730420606,
+      "overall": 0.5769594191808556
+    },
+    "seas": {
+      "bias": 0.45251069933804433,
+      "rmse": 0.2771200955406107,
+      "seasonal": 0.8700174404901319,
+      "spatial": 0.21033310326378288,
+      "overall": 0.4232686889185375
+    },
+    "eqas": {
+      "bias": 0.44113198371201323,
+      "rmse": 0.31391499391407546,
+      "seasonal": 0.8375174871840902,
+      "spatial": 0.10093344352295759,
+      "overall": 0.40809081432653754
+    },
+    "aust": {
+      "bias": 0.6959776675931207,
+      "rmse": 0.3537018527095503,
+      "seasonal": 0.5810777318484102,
+      "spatial": 0.6437460105869567,
+      "overall": 0.5540304638401181
+    }
+  },
+  "params": {
+    "exp_mult": 1.0837769375319999,
+    "boost": 1.167461186979663,
+    "dry_k": 0.014256092268642342,
+    "dry_c": 43.924521021348006,
+    "p_low_k": 0.04270367854066485,
+    "p_low_c": 819.7789939956555,
+    "p_high_k": 0.005656469984222592,
+    "p_high_c": 2135.8128226041526,
+    "gpp_lo_k": 0.14073253709885922,
+    "gpp_lo_c": 0.0005415389715324727,
+    "gpp_hi_k": 7.310488179317334,
+    "gpp_hi_c": 0.9762144729990373
+  },
+  "diagnostics": {
+    "raw_land_mean": 0.09008022606036474,
+    "raw_max": 1.3306834697723389
+  },
+  "mechanism_note": "Focused second-order search after curing-window ablation.\n\nThe ablation of ED-Cand2-curing_window showed the month-to-month drydown term is not\nneeded; the useful mechanism is a windowed release boost:\n  1 + boost * dry_now * annual_precip_window * GPP_window.\nThis script searches that simpler family directly, plus a variant with a very soft\nconditional wet cap to test whether CEAM/EQAS/SHSA repairs can be increased without\nlosing the newly recovered spatial skill.\n"
+}

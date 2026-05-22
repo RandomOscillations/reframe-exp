@@ -1,0 +1,158 @@
+{
+  "family": "pareto_senescence_corridor",
+  "n_trials": 500,
+  "seed": 20260523,
+  "fast_objective": 0.6026873700242666,
+  "fast_global": {
+    "bias": 0.7100077173308805,
+    "rmse": 0.3820496680654442,
+    "seasonal": 0.8539779071007662,
+    "spatial": 0.772934078189434,
+    "overall": 0.6351711260138083
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7100077173308805,
+      "rmse": 0.3820496680654442,
+      "seasonal": 0.8539779071007662,
+      "spatial": 0.772934078189434,
+      "overall": 0.6351711260138083
+    },
+    "bona": {
+      "bias": 0.8671192005098821,
+      "rmse": 0.35395893881341556,
+      "seasonal": 0.9343823667270545,
+      "spatial": 0.5622634242680855,
+      "overall": 0.6564670116069559
+    },
+    "tena": {
+      "bias": 0.33601030846217544,
+      "rmse": 0.11795858401933253,
+      "seasonal": 0.6952757084588658,
+      "spatial": 0.08566140683637703,
+      "overall": 0.28147915004304314
+    },
+    "ceam": {
+      "bias": 0.216724254926065,
+      "rmse": 0.14278749155831985,
+      "seasonal": 0.8699087615518628,
+      "spatial": 0.0483865132269154,
+      "overall": 0.272886461291258
+    },
+    "nhsa": {
+      "bias": 0.41633840051996807,
+      "rmse": 0.28860000784932965,
+      "seasonal": 0.9211329018949347,
+      "spatial": 0.4310585945297658,
+      "overall": 0.4603447188605494
+    },
+    "shsa": {
+      "bias": 0.3752359679693426,
+      "rmse": 0.23315342350540524,
+      "seasonal": 0.8250739810230356,
+      "spatial": 0.24312535344700417,
+      "overall": 0.3808296862365892
+    },
+    "euro": {
+      "bias": 0.31276298251669293,
+      "rmse": 0.12470059802406612,
+      "seasonal": 0.8237557282885347,
+      "spatial": 0.04495840499703311,
+      "overall": 0.2906068823945143
+    },
+    "mide": {
+      "bias": 0.35873086172159946,
+      "rmse": 0.10500468470828732,
+      "seasonal": 0.7932775425432621,
+      "spatial": 0.037591003908590465,
+      "overall": 0.2930566065519377
+    },
+    "nhaf": {
+      "bias": 0.7648210866352093,
+      "rmse": 0.40430741672637444,
+      "seasonal": 0.9035424285334153,
+      "spatial": 0.6856574181433823,
+      "overall": 0.6545761422333275
+    },
+    "shaf": {
+      "bias": 0.7619381551678402,
+      "rmse": 0.4338878243619809,
+      "seasonal": 0.9167002490509115,
+      "spatial": 0.6639719376605999,
+      "overall": 0.6620540242951923
+    },
+    "boas": {
+      "bias": 0.8319201262000506,
+      "rmse": 0.32094302667075997,
+      "seasonal": 0.7967174650905765,
+      "spatial": 0.7102958927562139,
+      "overall": 0.6354566105980686
+    },
+    "ceas": {
+      "bias": 0.762370171545014,
+      "rmse": 0.30669138809804736,
+      "seasonal": 0.7295114135403477,
+      "spatial": 0.5821957448578253,
+      "overall": 0.5749717129473826
+    },
+    "seas": {
+      "bias": 0.43564197926482445,
+      "rmse": 0.26842197399925644,
+      "seasonal": 0.8733406745504367,
+      "spatial": 0.18156600543789117,
+      "overall": 0.41050576441941494
+    },
+    "eqas": {
+      "bias": 0.4493095105126113,
+      "rmse": 0.3094353941005352,
+      "seasonal": 0.8305802275193813,
+      "spatial": 0.09130794886514461,
+      "overall": 0.4065629976018032
+    },
+    "aust": {
+      "bias": 0.6919850800278075,
+      "rmse": 0.35254517495896365,
+      "seasonal": 0.5753698970223396,
+      "spatial": 0.6436518906400446,
+      "overall": 0.5513470496059878
+    }
+  },
+  "weak_mean": 0.33370393550550864,
+  "weak_min": 0.272886461291258,
+  "protect_min": 0.4603447188605494,
+  "params": {
+    "exp_mult": 1.0777834634599899,
+    "boost": 1.7968470356538024,
+    "dry_k": 0.024162337149423906,
+    "dry_c": 36.90200619883482,
+    "p_low_k": 0.03456933772356677,
+    "p_low_c": 761.9364861421154,
+    "p_high_k": 0.0037660467793880588,
+    "p_high_c": 4288.580907401135,
+    "gpp_lo_k": 3.2511037794334743,
+    "gpp_lo_c": 0.000511705641980574,
+    "gpp_hi_k": 18.252068324181774,
+    "gpp_hi_c": 1.4557719551948136,
+    "cap_amp": 0.2922196419806049,
+    "wet_k": 0.007476181254454505,
+    "wet_c": 1029.9164283538082,
+    "lowdef_k": 0.00832749059696158,
+    "lowdef_c": 158.89121003920775,
+    "sen_k": 0.984626129848458,
+    "sen_c": 0.5584560782770691,
+    "sen_mix": 0.39716808540313664,
+    "ann_gpp_k": 0.3322783789369004,
+    "ann_gpp_c": 0.129337398121642,
+    "arid_amp": 0.07012964330471023,
+    "arid_k": 0.01705102306478902,
+    "arid_c": 51.157089968676935,
+    "hotboost": 0.2609069547749815,
+    "hot_k": 0.014021712353876498,
+    "hot_c": 279.84698666369445
+  },
+  "diagnostics": {
+    "raw_land_mean": 0.09877796664085998,
+    "raw_max": 1.708817481994629
+  },
+  "mechanism_note": "Pareto-focused refinement after third-cycle tradeoffs.\n\nThe first third-cycle search showed two useful but conflicting signals:\n  * senescence_release nearly tied ED-Cand3 global diagnostic and repaired NHSA/EURO/EQAS,\n    but still worsened BONA more than ED-Cand3;\n  * dual_corridor_balance strongly repaired weak regions (EURO/EQAS/SHSA/NHSA/TENA) but\n    paid for it with BONA and African fire-belt losses.\n\nThis script tests whether those signals can be combined under realistic fast-score\nprotection thresholds calibrated to ED-Cand3's fast diagnostics, rather than the\nprevious overly high official-scale proxy thresholds. The analogy is Pareto-front\ncontrol in engineering design: after discovering two actuators, tune them with hard\nprotection limits instead of maximizing one aggregate.\n\nAll formulas remain one global formula with allowed predictors only.\n"
+}

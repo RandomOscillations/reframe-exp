@@ -1,0 +1,152 @@
+{
+  "family": "wet_supp_fuel_release",
+  "n_trials": 500,
+  "seed": 20260520,
+  "fast_objective": 0.5418485906885822,
+  "fast_global": {
+    "bias": 0.7090402709541024,
+    "rmse": 0.3804852955463977,
+    "seasonal": 0.8583440810970091,
+    "spatial": 0.7549816280589503,
+    "overall": 0.63206280702616
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7090402709541024,
+      "rmse": 0.3804852955463977,
+      "seasonal": 0.8583440810970091,
+      "spatial": 0.7549816280589503,
+      "overall": 0.63206280702616
+    },
+    "bona": {
+      "bias": 0.8678437487278448,
+      "rmse": 0.3541952747120993,
+      "seasonal": 0.9336502043998637,
+      "spatial": 0.570311439674497,
+      "overall": 0.6580066151590415
+    },
+    "tena": {
+      "bias": 0.34316039891604766,
+      "rmse": 0.12317137418245055,
+      "seasonal": 0.7000322179839321,
+      "spatial": 0.1057272844282063,
+      "overall": 0.2897371747681891
+    },
+    "ceam": {
+      "bias": 0.2445839949071994,
+      "rmse": 0.16589572696797064,
+      "seasonal": 0.8761261108319279,
+      "spatial": 0.06461299856128004,
+      "overall": 0.2936164255239247
+    },
+    "nhsa": {
+      "bias": 0.4407094364340487,
+      "rmse": 0.3165558975126329,
+      "seasonal": 0.9193010875923179,
+      "spatial": 0.5351923091958611,
+      "overall": 0.4948373441135904
+    },
+    "shsa": {
+      "bias": 0.4365203253170286,
+      "rmse": 0.25494566964314735,
+      "seasonal": 0.8396895589196577,
+      "spatial": 0.31140501588511404,
+      "overall": 0.42233776078752056
+    },
+    "euro": {
+      "bias": 0.31764652285853373,
+      "rmse": 0.12498286630634294,
+      "seasonal": 0.8232494492069516,
+      "spatial": 0.04754569854691174,
+      "overall": 0.29267565434726944
+    },
+    "mide": {
+      "bias": 0.3455543745976708,
+      "rmse": 0.09994200499166206,
+      "seasonal": 0.7911894442092866,
+      "spatial": 0.03619439826828228,
+      "overall": 0.28639610027603907
+    },
+    "nhaf": {
+      "bias": 0.7620348470980758,
+      "rmse": 0.4007312612710978,
+      "seasonal": 0.9051943849280805,
+      "spatial": 0.6090338372212876,
+      "overall": 0.6399600731479526
+    },
+    "shaf": {
+      "bias": 0.744363585020616,
+      "rmse": 0.42644227501506304,
+      "seasonal": 0.9169639987504802,
+      "spatial": 0.5314596155986298,
+      "overall": 0.6316725557367446
+    },
+    "boas": {
+      "bias": 0.8296648006907634,
+      "rmse": 0.3184196363994217,
+      "seasonal": 0.7983673216595445,
+      "spatial": 0.7117382253383637,
+      "overall": 0.6343790701963798
+    },
+    "ceas": {
+      "bias": 0.7629135157706257,
+      "rmse": 0.3041719781124824,
+      "seasonal": 0.7311071111442992,
+      "spatial": 0.5800301661167201,
+      "overall": 0.574218044171206
+    },
+    "seas": {
+      "bias": 0.4705502334365155,
+      "rmse": 0.28045975131949485,
+      "seasonal": 0.8648857984869065,
+      "spatial": 0.21776189858297837,
+      "overall": 0.43077794443031764
+    },
+    "eqas": {
+      "bias": 0.4658471283192712,
+      "rmse": 0.3184897299449935,
+      "seasonal": 0.8467235346057101,
+      "spatial": 0.12767750043877565,
+      "overall": 0.42384579192883587
+    },
+    "aust": {
+      "bias": 0.6978203975663448,
+      "rmse": 0.35444155181084047,
+      "seasonal": 0.6029821894456924,
+      "spatial": 0.6250344312214309,
+      "overall": 0.5554234199035823
+    }
+  },
+  "weak_mean": 0.34848383600887095,
+  "weak_min": 0.28639610027603907,
+  "strong_mean": 0.6156099630524844,
+  "strong_min": 0.5554234199035823,
+  "params": {
+    "exp_mult": 1.0706634411558804,
+    "amp": 0.3674800875781753,
+    "wet_k": 0.0005652864777774387,
+    "wet_c": 623.2024234728366,
+    "ld_k": 0.005982417630745741,
+    "ld_c": 337.7136134416979,
+    "pr_k": 0.04464579747405013,
+    "pr_c": 24.13489292701698,
+    "mix_lowdef": 0.2892072910533702,
+    "gpp_charge": 0.815822221199636,
+    "p_charge": 0.7704776085412609,
+    "charge_half": 0.222333989635229,
+    "dry_k": 0.009452497822800054,
+    "dry_c": 33.78793271774521,
+    "dd_k": 0.029284393142555307,
+    "dd_c": 134.94461916113175,
+    "rel_drydown_mix": 0.9079761744789889,
+    "boost": 0.567334355731346
+  },
+  "diagnostics": {
+    "raw_land_mean": 0.08552153218132993,
+    "raw_max": 1.2809196710586548,
+    "factor_land_mean": 0.9563477394222146,
+    "factor_min": 0.6715432405471802,
+    "factor_max": 1.5208618640899658
+  },
+  "mechanism_note": "Second-order constrained fire model mechanisms after first-cycle failures.\n\nThis continuation deliberately starts from fixed original Model C and adds only a small\nnumber of global, physically interpretable interaction terms. The first cycle showed:\n  * blunt high-annual-precipitation suppression repairs weak wet/temperate regions\n    but loses global spatial skill, especially African/boreal fire belts;\n  * antecedent fuel charging alone also damages spatial structure;\n  * month-to-month drydown by itself is pruned/nearly neutral.\n\nTherefore these families test conditional interactions that should activate only\nwhen multiple physical gates agree (wet canopy + low deficit, charged fuel + dry\nrelease, high productivity + moisture persistence, hyperarid fuel limit + heat).\nNo formula uses latitude/longitude, named regions, per-cell lookup, residual maps,\nor external data. GFED appears only in the screening objective.\n"
+}

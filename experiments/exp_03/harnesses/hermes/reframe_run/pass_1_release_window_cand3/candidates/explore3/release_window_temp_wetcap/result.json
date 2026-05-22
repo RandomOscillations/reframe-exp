@@ -1,0 +1,142 @@
+{
+  "family": "release_window_temp_wetcap",
+  "n_trials": 500,
+  "seed": 20260522,
+  "fast_objective": 0.33299254385448374,
+  "fast_global": {
+    "bias": 0.7104046324285307,
+    "rmse": 0.38046233989532807,
+    "seasonal": 0.8511784962267669,
+    "spatial": 0.7521455922415246,
+    "overall": 0.6308430055193348
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7104046324285307,
+      "rmse": 0.38046233989532807,
+      "seasonal": 0.8511784962267669,
+      "spatial": 0.7521455922415246,
+      "overall": 0.6308430055193348
+    },
+    "bona": {
+      "bias": 0.8660927650550396,
+      "rmse": 0.3533982066969812,
+      "seasonal": 0.934035855007017,
+      "spatial": 0.5713671743275865,
+      "overall": 0.6573974954731076
+    },
+    "tena": {
+      "bias": 0.34190851806883177,
+      "rmse": 0.12443379788227607,
+      "seasonal": 0.7038173612502434,
+      "spatial": 0.10686390937406089,
+      "overall": 0.29056098375442
+    },
+    "ceam": {
+      "bias": 0.23927912150232003,
+      "rmse": 0.16919183917131592,
+      "seasonal": 0.8609316492753077,
+      "spatial": 0.06465438721611684,
+      "overall": 0.29042132630644946
+    },
+    "nhsa": {
+      "bias": 0.4502186734274599,
+      "rmse": 0.3305880754614561,
+      "seasonal": 0.9177658699938662,
+      "spatial": 0.5541128831177862,
+      "overall": 0.5055820418149141
+    },
+    "shsa": {
+      "bias": 0.4476360938534481,
+      "rmse": 0.2617609938272229,
+      "seasonal": 0.8211469680062242,
+      "spatial": 0.3335349287137109,
+      "overall": 0.4289126786802129
+    },
+    "euro": {
+      "bias": 0.3122756527429145,
+      "rmse": 0.12661076256346437,
+      "seasonal": 0.8220430408404877,
+      "spatial": 0.051600045989910255,
+      "overall": 0.29190265290719264
+    },
+    "mide": {
+      "bias": 0.35821966007424505,
+      "rmse": 0.10540715438549376,
+      "seasonal": 0.7929114375537427,
+      "spatial": 0.04004605198658134,
+      "overall": 0.2933685197433003
+    },
+    "nhaf": {
+      "bias": 0.761892856151812,
+      "rmse": 0.4011342306750506,
+      "seasonal": 0.9003830364177531,
+      "spatial": 0.5751421092184047,
+      "overall": 0.6335965532149804
+    },
+    "shaf": {
+      "bias": 0.7465982372964405,
+      "rmse": 0.4240221925817611,
+      "seasonal": 0.9153650869330663,
+      "spatial": 0.5357840816315669,
+      "overall": 0.6320650047201727
+    },
+    "boas": {
+      "bias": 0.8271726923401221,
+      "rmse": 0.3181973218561192,
+      "seasonal": 0.7967174650905765,
+      "spatial": 0.7040129869679556,
+      "overall": 0.6319117467418357
+    },
+    "ceas": {
+      "bias": 0.7622110550163365,
+      "rmse": 0.3057407766647613,
+      "seasonal": 0.7263139801854834,
+      "spatial": 0.5893878705045404,
+      "overall": 0.5752675856753698
+    },
+    "seas": {
+      "bias": 0.4742256888453991,
+      "rmse": 0.2822740858443935,
+      "seasonal": 0.8341590317881394,
+      "spatial": 0.23619772233995184,
+      "overall": 0.430559383917946
+    },
+    "eqas": {
+      "bias": 0.46052999142235634,
+      "rmse": 0.3202812342404221,
+      "seasonal": 0.8424791314069775,
+      "spatial": 0.1289563117100841,
+      "overall": 0.42217631574043635
+    },
+    "aust": {
+      "bias": 0.6971956419130878,
+      "rmse": 0.3543629623654645,
+      "seasonal": 0.5794952744867219,
+      "spatial": 0.6209664563021265,
+      "overall": 0.5505964898909922
+    }
+  },
+  "params": {
+    "exp_mult": 1.052764787140899,
+    "boost": 0.7756349598725899,
+    "dry_k": 0.04042233947290535,
+    "dry_c": 44.742209844326744,
+    "p_low_k": 0.002077488271096952,
+    "p_low_c": 1003.2277437180034,
+    "p_high_k": 0.00503830851647906,
+    "p_high_c": 3429.482510915654,
+    "gpp_lo_k": 0.5271900627834453,
+    "gpp_lo_c": 1.8206741746189923,
+    "gpp_hi_k": 0.18212777511846398,
+    "gpp_hi_c": 0.16314677704509928,
+    "temp_k": 0.8797520826381012,
+    "temp_c": 304.70288497493925,
+    "cap_amp": 0.23910977082629747,
+    "wet_k": 0.01992268507972482,
+    "wet_c": 1574.7641500541192,
+    "lowdef_k": 0.013587204237068192,
+    "lowdef_c": 2454.245355629744
+  },
+  "mechanism_note": "Temperature-conditioned release-window search.\n\nAfter release_window_wetcap improved global/public/regional scores but still degraded BONA,\nthis tests whether the boost should require an explicit warm ignition state. Analogy:\nreleasing stored chemical energy still needs an activation temperature; the base Model C\nhas a temperature gate, but the added fuel-release boost may need its own ignition\ninterlock to avoid amplifying cool boreal cells.\n"
+}

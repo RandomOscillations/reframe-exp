@@ -1,0 +1,143 @@
+{
+  "family": "drydown_curing",
+  "n_trials": 500,
+  "seed": 20260518,
+  "fast_objective": 0.5676005742840214,
+  "fast_global": {
+    "bias": 0.7070857028352947,
+    "rmse": 0.37905444206464134,
+    "seasonal": 0.8506061694600666,
+    "spatial": 0.7544105422753865,
+    "overall": 0.6295495002558874
+  },
+  "fast_regions": {
+    "global": {
+      "bias": 0.7070857028352947,
+      "rmse": 0.37905444206464134,
+      "seasonal": 0.8506061694600666,
+      "spatial": 0.7544105422753865,
+      "overall": 0.6295495002558874
+    },
+    "bona": {
+      "bias": 0.8633980436615418,
+      "rmse": 0.35195636047384254,
+      "seasonal": 0.934035855007017,
+      "spatial": 0.578787267245974,
+      "overall": 0.65725532175396
+    },
+    "tena": {
+      "bias": 0.32434187257142466,
+      "rmse": 0.11910453790402065,
+      "seasonal": 0.697294560344806,
+      "spatial": 0.09549824342107682,
+      "overall": 0.27994760411946223
+    },
+    "ceam": {
+      "bias": 0.20664750238744306,
+      "rmse": 0.16088536155271624,
+      "seasonal": 0.8620786122008545,
+      "spatial": 0.05865530876429429,
+      "overall": 0.27596660814091123
+    },
+    "nhsa": {
+      "bias": 0.42607418250158646,
+      "rmse": 0.3242912346785515,
+      "seasonal": 0.9177430036368447,
+      "spatial": 0.5110868174374279,
+      "overall": 0.48826010923909147
+    },
+    "shsa": {
+      "bias": 0.4107471103494559,
+      "rmse": 0.2562923972102031,
+      "seasonal": 0.8212128824820426,
+      "spatial": 0.3063801261011505,
+      "overall": 0.4102786706170852
+    },
+    "euro": {
+      "bias": 0.28698329536998635,
+      "rmse": 0.11862689333437725,
+      "seasonal": 0.8224360532448625,
+      "spatial": 0.04767265564718397,
+      "overall": 0.28022151438346227
+    },
+    "mide": {
+      "bias": 0.34660437021452944,
+      "rmse": 0.10275820759294671,
+      "seasonal": 0.7919584151675105,
+      "spatial": 0.03760803734593548,
+      "overall": 0.28804860135473304
+    },
+    "nhaf": {
+      "bias": 0.7623539122566956,
+      "rmse": 0.4008195555584647,
+      "seasonal": 0.900363650267879,
+      "spatial": 0.5826759350127687,
+      "overall": 0.6348977534851614
+    },
+    "shaf": {
+      "bias": 0.7507617235394984,
+      "rmse": 0.42345975138883785,
+      "seasonal": 0.913252516427104,
+      "spatial": 0.5466744837728295,
+      "overall": 0.6347283250094344
+    },
+    "boas": {
+      "bias": 0.8152459643131624,
+      "rmse": 0.31186844585490475,
+      "seasonal": 0.7967174650905765,
+      "spatial": 0.6794581244669889,
+      "overall": 0.6217340683156166
+    },
+    "ceas": {
+      "bias": 0.7543328949271736,
+      "rmse": 0.3010172499236477,
+      "seasonal": 0.7282313947113859,
+      "spatial": 0.5826022988632884,
+      "overall": 0.5702556638793862
+    },
+    "seas": {
+      "bias": 0.4409537807575608,
+      "rmse": 0.27648109358206335,
+      "seasonal": 0.8345562313793472,
+      "spatial": 0.2253472583858427,
+      "overall": 0.41579553974073974
+    },
+    "eqas": {
+      "bias": 0.400649081694964,
+      "rmse": 0.3085631618642307,
+      "seasonal": 0.8363351753696134,
+      "spatial": 0.08922933560807621,
+      "overall": 0.3906648330160132
+    },
+    "aust": {
+      "bias": 0.6953597272415868,
+      "rmse": 0.35404823033258176,
+      "seasonal": 0.5805839698035111,
+      "spatial": 0.6217073082602823,
+      "overall": 0.5501845322020218
+    }
+  },
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "dd_k": 0.01,
+    "dd_c": 0.0,
+    "dd_floor": 1.0
+  },
+  "mechanism_note": "Explore constrained global mechanistic burned-area formula variants.\n\nThis script intentionally stays inside the fixed input contract. Candidate formulas\nuse only transforms of Model C inputs: dbar, p_ann, p_month, t_air, monthly GPP.\nNo latitude/longitude, region identifiers, cell lookup tables, residual maps, or\nexternal data enter the formulas.\n\nThe fast objective is an ILAMB-inspired proxy for screening. Serious candidates\nmust still be regenerated and run through official ILAMB.\n",
+  "diagnostics": {
+    "raw_land_mean": 0.09018399116847214,
+    "raw_max": 0.9986616969108582,
+    "fire_max_rate": 5.0
+  }
+}

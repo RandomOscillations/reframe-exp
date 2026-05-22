@@ -1,8 +1,8 @@
-# Hermes Reframe Pass 1: Cand5 Public Leader And Pareto Frontier
+# Hermes Reframe Pass 3: Mosaic Edge / Cand5 Public Leader And Pareto Frontier
 
 ## Purpose
 
-This artifact package records the completed Experiment 03 Hermes structural-reframe run. The run started from original Model C and continued through multiple autoresearch cycles until it found a new clean-public leader and a separate balanced regional/global Pareto candidate.
+This artifact package records the third Experiment 03 Hermes structural-reframe pass. The pass continued from the Cand4/Pareto frontier and tested monsoon-break, mosaic-edge, and protected-corridor mechanisms until it found a new clean-public leader and a separate balanced regional/global Pareto candidate.
 
 ## Main Results
 
