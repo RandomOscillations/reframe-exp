@@ -1,0 +1,6 @@
+Model,Bias Score,RMSE Score,Seasonal Cycle Score,Spatial Distribution Score,Overall Score
+ED-ModelC-curing_ratio-g700,0.729482,0.499233,0.838594,0.782165,0.669741
+ED-ModelC-curing_ratio-r500,0.699994,0.510097,0.827503,0.301372,0.569813
+ED-ModelC-final,0.728089,0.505759,0.84569,0.772351,0.671529
+ED-ModelC-gpp_asym-r500,0.722221,0.516424,0.843135,0.610321,0.641705
+ED-ModelC-wet_firebreak-r500,0.713542,0.515713,0.830597,0.516938,0.6185

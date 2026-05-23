@@ -1,0 +1,30 @@
+{
+  "model_name": "ED-ModelC-curing_ratio-g700",
+  "family": "curing_ratio",
+  "description": "Model C with monthly rain dampening buffered by accumulated dry deficit.",
+  "n_trials": 700,
+  "seed": 404,
+  "objective": "global",
+  "best_objective": 0.626810076135404,
+  "internal_global_tier": 0.626810076135404,
+  "internal_weak_region_component_mean": 0.3675027039254,
+  "fire_max_rate": 5.0,
+  "params": {
+    "k1": 0.005261992481615652,
+    "D_low": 3.4706005590456055,
+    "k2": 0.00878504686123748,
+    "D_high": 1566.7240997750343,
+    "fire_exp": 0.3094022291589523,
+    "P_half": 1.8972514094926305,
+    "pre_dampen_half": 2.098289454312333,
+    "gpp_af": 3.098053292994853,
+    "gpp_b": 1.3347521694857234e-05,
+    "gpp_d": 6.5530338165693065,
+    "ign_k": 5.910943986944971,
+    "ign_c": 19.424591267984656,
+    "dry_buffer": 173.9133923751317,
+    "dry_buffer_q": 0.05594572639079374
+  },
+  "netcdf": "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_04-reframe/hermes/reframe/ilamb/MODELS/ED-ModelC-curing_ratio-g700/burntArea.nc",
+  "constraints": "Formula uses only allowed dbar, annual/monthly precipitation, monthly GPP, monthly air temperature. No region/cell/lat/lon inputs."
+}

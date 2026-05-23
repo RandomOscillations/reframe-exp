@@ -1,0 +1,31 @@
+{
+  "model_name": "ED-ModelC-test-wet",
+  "family": "wet_firebreak",
+  "description": "Model C plus annual-wetness fuel-continuity/firebreak suppression.",
+  "n_trials": 1,
+  "seed": 42,
+  "objective": "regional",
+  "best_objective": 0.5571953307843908,
+  "internal_global_tier": 0.6257923137675059,
+  "internal_weak_region_component_mean": 0.39713570382378904,
+  "fire_max_rate": 5.0,
+  "params": {
+    "k1": 0.02128012643297453,
+    "D_low": 33.107928264466416,
+    "k2": 0.0032479995010666245,
+    "D_high": 3020.3711370643746,
+    "fire_exp": 0.5746291131439772,
+    "P_half": 3.1845074798114754,
+    "pre_dampen_half": 5.714386941567207,
+    "gpp_af": 0.4621796973523708,
+    "gpp_b": 5.190713720036356e-05,
+    "gpp_d": 128.62113841235993,
+    "ign_k": 0.8146117322506592,
+    "ign_c": 20.126441845162326,
+    "wet_P50": 2500.0,
+    "wet_q": 2.0,
+    "wet_exp": 1.0
+  },
+  "netcdf": "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_04-reframe/hermes/reframe/ilamb/MODELS/ED-ModelC-test-wet/burntArea.nc",
+  "constraints": "Formula uses only allowed dbar, annual/monthly precipitation, monthly GPP, monthly air temperature. No region/cell/lat/lon inputs."
+}

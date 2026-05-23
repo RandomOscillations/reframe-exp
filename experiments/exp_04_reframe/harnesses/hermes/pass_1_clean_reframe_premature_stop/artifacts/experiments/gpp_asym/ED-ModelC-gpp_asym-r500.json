@@ -1,0 +1,29 @@
+{
+  "model_name": "ED-ModelC-gpp_asym-r500",
+  "family": "gpp_asym",
+  "description": "Model C with asymmetric GPP onset and high-productivity closure.",
+  "n_trials": 500,
+  "seed": 202,
+  "objective": "regional",
+  "best_objective": 0.5625388114169164,
+  "internal_global_tier": 0.6048833577886068,
+  "internal_weak_region_component_mean": 0.4637348698829723,
+  "fire_max_rate": 5.0,
+  "params": {
+    "k1": 0.040541320289633496,
+    "D_low": 53.79571985063101,
+    "k2": 0.014096158307141947,
+    "D_high": 5265.456712807948,
+    "fire_exp": 1.7719804140909186,
+    "P_half": 3.9158681593185163,
+    "pre_dampen_half": 7.208627322050914,
+    "gpp_af": 52.63283481609743,
+    "ign_k": 1.6183612443449746,
+    "ign_c": 14.041551147526194,
+    "gpp_low": 1.5275812300377903e-05,
+    "gpp_high": 106.97929213475904,
+    "gpp_high_q": 2.800179474516598
+  },
+  "netcdf": "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_04-reframe/hermes/reframe/ilamb/MODELS/ED-ModelC-gpp_asym-r500/burntArea.nc",
+  "constraints": "Formula uses only allowed dbar, annual/monthly precipitation, monthly GPP, monthly air temperature. No region/cell/lat/lon inputs."
+}

@@ -1,0 +1,31 @@
+{
+  "model_name": "ED-ModelC-wet_firebreak-r500",
+  "family": "wet_firebreak",
+  "description": "Model C plus annual-wetness fuel-continuity/firebreak suppression.",
+  "n_trials": 500,
+  "seed": 101,
+  "objective": "regional",
+  "best_objective": 0.5628353977100274,
+  "internal_global_tier": 0.5874083020306956,
+  "internal_weak_region_component_mean": 0.5054986209618016,
+  "fire_max_rate": 5.0,
+  "params": {
+    "k1": 0.04260211106481919,
+    "D_low": 1.6003141044517926,
+    "k2": 0.0253280143733042,
+    "D_high": 4380.0511962043265,
+    "fire_exp": 1.895967936079454,
+    "P_half": 20.44126224651666,
+    "pre_dampen_half": 13.949442941639674,
+    "gpp_af": 0.16941904134560276,
+    "gpp_b": 7.484438587962101e-05,
+    "gpp_d": 5.617618620819518,
+    "ign_k": 0.8384125530525897,
+    "ign_c": 20.908064194496898,
+    "wet_P50": 1495.9678484721476,
+    "wet_q": 6.913710869937455,
+    "wet_exp": 0.21697020272511539
+  },
+  "netcdf": "/Users/adithyasrinivasan/Projects/creativity-docs/exp-workspaces/exp_04-reframe/hermes/reframe/ilamb/MODELS/ED-ModelC-wet_firebreak-r500/burntArea.nc",
+  "constraints": "Formula uses only allowed dbar, annual/monthly precipitation, monthly GPP, monthly air temperature. No region/cell/lat/lon inputs."
+}
