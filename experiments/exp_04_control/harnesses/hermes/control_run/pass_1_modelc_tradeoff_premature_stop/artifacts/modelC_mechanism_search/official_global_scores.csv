@@ -1,0 +1,7 @@
+Model,Region,Bias Score,RMSE Score,Seasonal Cycle Score,Spatial Distribution Score,Overall Score,Overall Note
+ED-ModelC-final,global,0.728089,0.505759,0.84569,0.772351,0.671529,official
+ED-ModelC-temp_window,global,0.725506,0.511461,0.841213,0.70636,0.6592,official
+ED-ModelC-fuel_moisture_balance,global,0.731075,0.511184,0.839058,0.693227,0.657146,official
+ED-ModelC-humid_suppression,global,0.718573,0.505759,0.829925,0.686248,0.649253,official
+ED-ModelC-base_refit,global,0.722189,0.507389,0.834902,0.668848,0.648144,official
+ED-ModelC-precip_shape,global,0.715627,0.509039,0.841352,0.656438,0.646299,official
